@@ -1,1 +1,34 @@
-theme = "ananke"
+## Basic Configuration
+baseurl = "https://nirantk.com/"
+languageCode = "en"
+
+title = "Nirant Kasliwal"
+theme = "hyde-hyde"
+
+[params]
+  themeColor = "theme-base-09"
+
+[params.social]	
+	twitter = "nirantk"
+	github = "nirantk"
+	linkedin = "nirant"
+
+relatedPosts = true
+
+[[menu.main]]
+name = "about"
+identifier = "about"
+url = "/about/"
+
+[[menu.main]]
+name = "Writing"
+identifier = "posts"
+url = "/posts/"
+
+[[menu.main]]
+name = "home"
+identifier = "home"
+url = "/"
+
+
+
