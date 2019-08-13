@@ -1,4 +1,10 @@
-# Failure Resume :)
++++
+title =  "Fail Resume"
+date = 2019-08-05T23:29:18+05:30
+tags = ["personal"]
+featured_image = ""
+description = ""
++++
 
 A failure resume is, as its name suggests, a list of rejections and setbacks. 
 

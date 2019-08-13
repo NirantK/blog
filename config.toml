@@ -5,25 +5,26 @@ languageCode = "en"
 title = "Nirant Kasliwal"
 theme = "hyde-hyde"
 
+include_toc = true
 [params]
   themeColor = "theme-base-09"
 
 [params.social]	
+	linkedin = "nirant"
 	twitter = "nirantk"
 	github = "nirantk"
-	linkedin = "nirant"
 
 relatedPosts = true
-
+postNavigation = true
 [[menu.main]]
 name = "about"
 identifier = "about"
 url = "/about/"
 
 [[menu.main]]
-name = "Writing"
-identifier = "posts"
-url = "/posts/"
+name = "articles"
+identifier = "articles"
+url = "/articles"
 
 [[menu.main]]
 name = "home"
