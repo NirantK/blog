@@ -3,7 +3,7 @@ title: "Now"
 date: 2019-08-12T23:09:05+05:30
 lastmod: 2019-08-12T23:09:05+05:30
 tags : ["personal"]
-categories : [ "" ]
+# categories : [ "" ]
 layout: post
 type:  "post"
 highlight: false

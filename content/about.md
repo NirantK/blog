@@ -8,6 +8,7 @@ description = ""
 
 [Linkedin](https://www.linkedin.com/in/nirant/) |  [Github](https://github.com/NirantK/) | [Twitter](https://twitter.com/NirantK/)
 
+
 Hiya! You found me. I'm Nirant. 
 
 I build Machine Learning/Data Science powered products. I make sometimes clever products which make human life easier.
@@ -32,17 +33,16 @@ Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019)
 
 ## Community Contributions
 
-- [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas)
-	- Curated list of machine learning (mostly deep learning) project ideas with datasets with **1.5k+ stars**
-	- Ideas range from Vision, Text, Forecasting to Recommender Systems.
+- [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) ![](https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=flat) 
+	
+	- Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-- [Awesome NLP](https://github.com/keon/awesome-nlp) 
+- [Awesome NLP](https://github.com/keon/awesome-nlp) ![](https://img.shields.io/github/stars/keon/awesome-nlp?style=flat)
 	- Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp), which is also featured in [Github's Official Machine Learning Collection](https://github.com/collections/machine-learning)
-	- Curated list of Natural Language Processing Resources with **75+ contributors, 8k+ stars**
+	- Curated list of Natural Language Processing Resources
 
 - SoTA Language Modeling Results for Hindi 
-	- State of the Art Language Modeling in Hindi + new datasets based on ULimFit
-	- Code here at [hindi2vec](https://github.com/NirantK/hindi2vec)
+	- State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec)
 
 ## Hackathons
 
@@ -56,7 +56,10 @@ Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019)
 	- Idea: Find recent+relevant news articles against any NCERT chapter in sciences and social studies
 
 
-## Web Winss
+## Web Mentions
+
+My 5 minutes of Internet fame
+
 
 **Won the Kaggle Kernel Prize**
 
