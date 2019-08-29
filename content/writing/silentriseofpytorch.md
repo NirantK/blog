@@ -1,7 +1,7 @@
 +++
 title =  "The Silent Rise of PyTorch Ecosystem"
 date = 2019-08-27T23:29:18+05:30
-tags = ["tech"]
+tags = ["python", "tech", "deeplearning"]
 featured_image = "https://miro.medium.com/max/8250/1*ZLLZPo4kiH-cBzUYEukEVg.png"
 description = "What is blazing across the PyTorch Ecosystem?"
 toc = true

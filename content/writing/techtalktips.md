@@ -2,7 +2,7 @@
 title =  "Tech Talk Tips"
 date = 2019-08-05T23:29:18+05:30
 tags = ["tech"]
-featured_image = ""
+featured_image = "/images/talk.jpg"
 description = ""
 toc = true
 show_reading_time = true
@@ -10,7 +10,7 @@ show_reading_time = true
 
 Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on [Twitter](https://twitter.com/NirantK/status/1149155845604704257). 
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/W8WlTP8" data-context="false" ><a href="//imgur.com/a/W8WlTP8">Meghana at PyData BLR</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+{{< figure src="/images/meghanaTalk.jpg" caption="Meghana gave a talk based on these tips at PyData Bengaluru" >}}
 
 > You: Hey, I know something better! 
 

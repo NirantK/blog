@@ -1,8 +1,8 @@
 +++
 title =  "Best of Python 3 f-strings"
 date = 2019-08-27T23:29:18+05:30
-tags = ["tech"]
-featured_image = ""
+tags = ["python", "tech"]
+featured_image = "images/ink.png"
 description = "Python f-string Primer"
 toc = true
 show_reading_time = true
@@ -14,13 +14,24 @@ This piece is primarily meant for those new to Python. These include mathematici
 
 If you are familiar with earlier Python versions, here are my top picks on how to move from .format () to this new one:
 
-<script src="https://gist.github.com/NirantK/9d667034ef7feac484c21528251decbb.js"></script>
+{{< highlight python >}}
+
+_fstring = f'Total: {one + two}'  # Go f-string!
+_format = 'Total: {}'.format(one + two)
+_percent = 'Total: %s' % (one + two)
+_concatenation = 'Total: ' + str(one + two)
+assert _fstring == _format == _percent == _concatenation
+{{< /highlight >}}
 
 ## f-string Magic
 
 f-strings are how you should use print statements in Python. It is fairly reminiscent of LaTeX in it’s inline notation:
-
-<script src="https://gist.github.com/NirantK/345e8d846bbc13a18caec0e40b47fde3.js"></script>
+{{< highlight python >}}
+# inline variables, similar to LaTeX
+name = "Fred"
+print(f"He said his name is {name}.")
+# 'He said his name is Fred.'
+{{< /highlight >}}
 
 Notice how the variable _name_ can now be used inline. This is a simple and easy to use syntax: just include the variable in surrounding _{}_ while marking the string type as f-string using the ‘_f_’ in the beginning.
 
@@ -40,18 +51,58 @@ This is much easier with Python f-strings using the colon ‘:’ operator, foll
 
 There are atleast 3 alignment operator: < for left aligned, > for right aligned, and ^ for center aligned. Refer the code example:
 
-<script src="https://gist.github.com/NirantK/c20e7b2e3cc302a967171c327089a5db.js"></script>
+{{< highlight python >}}
+correct = 'correct'
+phonetic_correct = 'phonetic_correct'
+typo = 'typo'
+phonetic_typo = 'phonetic_typo'
+phonetic_distance = 'phonetic_distance'
+
+{{< /highlight >}}
+{{< highlight python >}}
+
+print(f'No Spacing:')
+print(f'{correct}|{phonetic_correct}|{typo}|{phonetic_typo}|{phonetic_distance}|\n')
+# No Spacing:
+# correct|phonetic_correct|typo|phonetic_typo|phonetic_distance|
+{{< /highlight >}}
+{{< highlight python >}}
+
+print(f'Right Aligned:')
+print(f'{correct:>10}|{phonetic_correct:>20}|{typo:>10}|{phonetic_typo:>20}|{phonetic_distance:>20}|\n')
+# Right Aligned:
+#    correct|    phonetic_correct|      typo|       phonetic_typo|   phonetic_distance|
+{{< /highlight >}}
+{{< highlight python >}}
+
+print(f'Left Aligned:')
+print(f'{correct:<10}|{phonetic_correct:<20}|{typo:<10}|{phonetic_typo:<20}|{phonetic_distance:<20}|\n') 
+# Left Aligned:
+# correct   |phonetic_correct    |typo      |phonetic_typo       |phonetic_distance   |
+{{< /highlight >}}
+{{< highlight python >}}
+
+print(f'Centre Aligned:')
+print(f'{correct:^10}|{phonetic_correct:^20}|{typo:^10}|{phonetic_typo:^20}|{phonetic_distance:^20}|') 
+# Centre Aligned:
+#  correct  |  phonetic_correct  |   typo   |   phonetic_typo    | phonetic_distance  |
+{{< /highlight >}}
 
 You also have support for decimal truncation and similar standard formatting utilities:
-<script src="https://gist.github.com/NirantK/3faa8e43ba0a376e56210c92fb3740e2.js"></script>
+{{< highlight python >}}
+# auto-resolve variable scope when nested
+width = 10
+precision = 4
+value = decimal.Decimal("12.34567")
+print(f"result: {value:{width}.{precision}}")  # nested fields
+# 'result:      12.35'
+{{< /highlight >}}
 
 You might notice something interesting here: width and precision are automatically picked up from the scope. This means you can calculate width and precision using screen width or other inputs from system and use that.
 
 ## Full Python Expressions Support
 
 The above is only possible because the expression inside {} is actually being evaluated, or in programming terms: being executed.
-
-<script src="https://gist.github.com/NirantK/413f48601f9e22887e74f8b263179fa5.js"></script>
 
 This implies, that you can make any function call from within those {}.
 
@@ -61,7 +112,12 @@ Those coming from functional programming might miss their lambda functions. Don�
 
 ## Lambda Functions in f-strings
 
-<script src="https://gist.github.com/NirantK/c770b55f0f0a6941a58ed751b86f535e.js"></script>
+{{< highlight python >}}
+# If you feel you must use lambdas, they may be used inside of parentheses:
+print(f'{(lambda x: x*3)(3)}')
+# '9'
+# note that this returned a <str> and not <int>
+{{< /highlight >}}
 
 # Summary
 
