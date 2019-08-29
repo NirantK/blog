@@ -3,33 +3,44 @@ baseurl = "https://nirantk.com/"
 languageCode = "en"
 
 title = "Nirant Kasliwal"
-theme = "hyde-hyde"
+theme = "ananke"
 
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+show_reading_time = true
 include_toc = true
 [params]
-  themeColor = "theme-base-09"
+  description = "I make cool Product with Natural Language Processing"
+  background_color_class = "bg-near-black"
+  favicon=""
+  linkedin="https//www.linkedin.com/in/nirant"
+  twitter = "https://twitter.com/@NirantK"
+  github="https://github.com/NirantK"
+  recent_posts_number = 3
 
-[params.social]	
-	linkedin = "nirant"
-	twitter = "nirantk"
-	github = "nirantk"
-
+enableRobotsTXT = true
 relatedPosts = true
 postNavigation = true
-[[menu.main]]
-name = "about"
-identifier = "about"
-url = "/about/"
 
 [[menu.main]]
-name = "articles"
-identifier = "articles"
-url = "/articles"
+name = "showoff"
+identifier = "showoff"
+url = "/about"
+
+[[menu.main]]
+name = "now"
+identifier = "now"
+url = "/now"
+
+[[menu.main]]
+name = "writing"
+identifier = "writing"
+url = "/writing"
 
 [[menu.main]]
 name = "home"
 identifier = "home"
 url = "/"
-
-
-

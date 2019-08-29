@@ -4,6 +4,7 @@ date = 2019-08-05T23:29:18+05:30
 tags = ["tech"]
 featured_image = ""
 description = ""
+toc = true
 +++
 
 Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on [Twitter](https://twitter.com/NirantK/status/1149155845604704257). 

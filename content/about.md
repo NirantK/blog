@@ -1,6 +1,4 @@
 +++
-title =  "About Me"
-date = 2019-08-05T23:29:18+05:30
 tags = ["personal"]
 featured_image = ""
 description = ""
@@ -11,15 +9,12 @@ description = ""
 
 Hiya! You found me. I'm Nirant. 
 
-I build Machine Learning/Data Science powered products. I make sometimes clever products which make human life easier.
-
 # Past
 
 ## NLP in Python: Quickstart Guide
 
 Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019)
-
-[![](https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg)](https://www.amazon.in/dp/B07L3PLQS1)
+[<img src="https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg" alt="bookcover" style="width:261px;"/>](https://www.amazon.in/dp/B07L3PLQS1)
 
 * Written with code examples and programmer-first mindset. Try it out yourself on [Github](https://github.com/NirantK/nlp-python-deep-learning)
 * Includes Text Embedding, Linguistics 101, Ensemble Modeling, Chatbots with small data, ML and Deep learning for text classification using tools like spaCy, PyTorch, & gensim. 
@@ -33,33 +28,19 @@ Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019)
 
 ## Community Contributions
 
-- [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) ![](https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=flat) 
-	
-	- Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
+- [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=flat" style="width:50px;display: inline-block;"/>	- Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-- [Awesome NLP](https://github.com/keon/awesome-nlp) ![](https://img.shields.io/github/stars/keon/awesome-nlp?style=flat)
+- [Awesome NLP](https://github.com/keon/awesome-nlp) <img src="https://img.shields.io/github/stars/keon/awesome-nlp?style=flat" style="width:50px;display: inline-block;"/>	
+	- Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 	- Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp), which is also featured in [Github's Official Machine Learning Collection](https://github.com/collections/machine-learning)
 	- Curated list of Natural Language Processing Resources
 
 - SoTA Language Modeling Results for Hindi 
 	- State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec)
 
-## Hackathons
-
-
-- First Runner's Up at the Future Group Datathon (March 2019)
-	- Two stage Machine Learning hackathon called [Tathastu](https://www.tathastu.ai/datathon), working on recommendation systems and item information extraction problems
-	- Judged by a jury from Palantir and Future Group Consumer & Data Lab
-
-- Opened AI Hackathon
-	- Awesome NCERT won the Best use of IBM Watson API; [blog](https://medium.com/opened-ai/global-hackweek-winners-2017-a9e5da513270)
-	- Idea: Find recent+relevant news articles against any NCERT chapter in sciences and social studies
-
-
 ## Web Mentions
 
 My 5 minutes of Internet fame
-
 
 **Won the Kaggle Kernel Prize**
 
@@ -82,5 +63,16 @@ Tips, Tricks, Best Practices for working with Jupyter Notebook's was appreciated
 
 - FactorDaily's piece on [The great rush to data sciences in India](https://factordaily.com/rush-training-data-science-machine-learning-ai-india/) ends with a direct quote from me. 
 - FactorDaily is a new age news company which sits at the intersection of technology with life, culture and society in India.
+
+## Hackathons
+
+
+- First Runner's Up at the Future Group Datathon (March 2019)
+	- Two stage Machine Learning hackathon called [Tathastu](https://www.tathastu.ai/datathon), working on recommendation systems and item information extraction problems
+	- Judged by a jury from Palantir and Future Group Consumer & Data Lab
+
+- Opened AI Hackathon
+	- Awesome NCERT won the Best use of IBM Watson API; [blog](https://medium.com/opened-ai/global-hackweek-winners-2017-a9e5da513270)
+	- Idea: Find recent+relevant news articles against any NCERT chapter in sciences and social studies
 
 

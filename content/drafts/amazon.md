@@ -1,10 +1,7 @@
-+++
-title =  "Bezos & Amazon Inc."
-date = 2019-08-05T23:29:18+05:30
-tags = []
-featured_image = ""
-description = ""
-+++
+---
+title : "Bezos & Amazon Inc."
+draft : true
+---
 
 Bezos & Amazon Inc. 
 ---
