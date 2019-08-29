@@ -4,12 +4,11 @@ featured_image = ""
 description = ""
 +++
 
-[Linkedin](https://www.linkedin.com/in/nirant/) |  [Github](https://github.com/NirantK/) | [Twitter](https://twitter.com/NirantK/)
-
-
 Hiya! You found me. I'm Nirant. 
 
-# Past
+[Linkedin](https://www.linkedin.com/in/nirant/) |  [Github](https://github.com/NirantK/) | [Twitter](https://twitter.com/NirantK/)
+
+# About
 
 ## NLP in Python: Quickstart Guide
 

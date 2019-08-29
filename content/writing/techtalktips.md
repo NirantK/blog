@@ -5,10 +5,12 @@ tags = ["tech"]
 featured_image = ""
 description = ""
 toc = true
+show_reading_time = true
 +++
 
 Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on [Twitter](https://twitter.com/NirantK/status/1149155845604704257). 
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/W8WlTP8" data-context="false" ><a href="//imgur.com/a/W8WlTP8">Meghana at PyData BLR</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 > You: Hey, I know something better! 
 
@@ -27,6 +29,7 @@ tl;dr: Do not block the message with your actions. Put in the work to get the me
 > I typically practice my talks in logical units, then practice the transitions, then put it all together at the end. I find that much easier and more efficient than only ever doing full run-throughs. But then again, people have different preferences here.
 
 - From Ines, the co-creator of spaCy
+
 
 ## On how to start the talk: 
 > Give an outline to the audience about the topics that will be addressed. More importantly, gauge the existing level of understanding of the subject of the audience and modify the presentation accordingly. Best way is to ask questions before starting the presentation.

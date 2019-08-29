@@ -10,17 +10,17 @@ theme = "ananke"
   priority = 0.5
   filename = "sitemap.xml"
 
-show_reading_time = true
-include_toc = true
 [params]
   description = "I make cool Product with Natural Language Processing"
   background_color_class = "bg-near-black"
   favicon=""
-  linkedin="https//www.linkedin.com/in/nirant"
+  linkedin="https://www.linkedin.com/in/nirant"
   twitter = "https://twitter.com/@NirantK"
   github="https://github.com/NirantK"
   recent_posts_number = 3
 
+pygmentsUseClassic=true
+pygmentsUseClasses=true
 enableRobotsTXT = true
 relatedPosts = true
 postNavigation = true
