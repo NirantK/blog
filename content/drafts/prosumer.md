@@ -12,16 +12,28 @@ Keys:
 :ear: Hearing good things about this
 :eyes: Keeping an eye on this
 
+# The Celebs
+## Superhuman
+## Airtable
+## Notion
 
-**Superhuman**
+# Emerging
+## Coda
+(h/t @CaseyNewton)
+## TickTick (to-do's)
+(h/t @CaseyNewton)
+## Woven (calendar)
+(h/t @CaseyNewton)
 
 
-**Coda**
+# The Just Born
 
+## Tandem.chat
 
-**Airtable**
-
-
-**Tandem.chat**
-
-**Workomo**
+# Good problem, incomplete solutions: 
+## Breaker (podcasts but social)
+(h/t @CaseyNewton)
+## Soon (Goodreads but for all other media)
+(h/t @CaseyNewton)
+## Stoop (RSS reader for newsletters)
+(h/t @CaseyNewton)
