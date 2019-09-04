@@ -37,3 +37,13 @@ Keys:
 (h/t @CaseyNewton)
 ## Stoop (RSS reader for newsletters)
 (h/t @CaseyNewton)
+
+# The Quirky Google Sheets Solutions
+
+## SteinHQ
+https://steinhq.com/
+
+## GlideApps
+https://www.glideapps.com/
+Demo App: women.sh
+Main beef: Pricing, useless as a hobby app - but amazing for a business trying to MVP a feature
