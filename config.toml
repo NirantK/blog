@@ -3,7 +3,7 @@ baseurl = "https://nirantk.com/"
 languageCode = "en"
 
 title = "Nirant Kasliwal"
-theme = "ananke"
+theme = "hello-friend-ng"
 
 [sitemap]
   changefreq = "monthly"
@@ -11,8 +11,7 @@ theme = "ananke"
   filename = "sitemap.xml"
 
 [params]
-  description = "I make cool Product with Natural Language Processing"
-  background_color_class = "bg-near-black"
+  background_color_class = "bg-black"
   favicon=""
   linkedin="https://www.linkedin.com/in/nirant"
   twitter = "https://twitter.com/@NirantK"
@@ -26,8 +25,8 @@ relatedPosts = true
 postNavigation = true
 
 [[menu.main]]
-name = "showoff"
-identifier = "showoff"
+name = "about"
+identifier = "about"
 url = "/about"
 
 [[menu.main]]
@@ -36,8 +35,8 @@ identifier = "now"
 url = "/now"
 
 [[menu.main]]
-name = "writing"
-identifier = "writing"
+name = "essays"
+identifier = "essays"
 url = "/writing"
 
 [[menu.main]]
