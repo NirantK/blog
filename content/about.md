@@ -30,7 +30,6 @@ Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019)
 - [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=flat" style="width:50px;display: inline-block;"/>	- Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
 - [Awesome NLP](https://github.com/keon/awesome-nlp) <img src="https://img.shields.io/github/stars/keon/awesome-nlp?style=flat" style="width:50px;display: inline-block;"/>	
-	- Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 	- Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp), which is also featured in [Github's Official Machine Learning Collection](https://github.com/collections/machine-learning)
 	- Curated list of Natural Language Processing Resources
 
