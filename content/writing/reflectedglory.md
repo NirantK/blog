@@ -1,8 +1,7 @@
 +++
 title =  "Don't Bask in Reflected Glory"
-date = 2019-08-27T23:29:18+05:30
+date = 2019-09-18T00:00:09+05:30
 tags = ["notes for self"]
-featured_image = "images/ink.png"
 description = "How to keep your identity small?"
 toc = true
 show_reading_time = true
@@ -30,11 +29,10 @@ Why should I be like them?
 
 # Identity
 
-I am not going to speak in platitudes about identity (and the related crisis). Frankly dear, I don't give a damn. 
+I am here to tell you how to keep your identity small. 
+I'll share what I think is the bare minimum context you need to have:
 
-I am here to tell you how to keep your identity small. But I'll share what I think is the bare minimum context you need to have:
-
-## Why should I keep my identity small?
+## Why should I keep my Identity small?
 
 [Paul Graham](http://www.paulgraham.com/identity.html) explains how keeping your identity small can be a competitive advantage:
 
@@ -44,7 +42,7 @@ I am here to tell you how to keep your identity small. But I'll share what I thi
 
 2. The bigger advantage is this: Better ideas. The ability to think with lucidity, without biases is an unfair advantage. If you act on rational decisions without attacking someone's identity, it's an even bigger advantage which few can compete with.
 
-## What do you mean by identity?
+## What do you mean by Identity?
 
 Identity, in the crudest sense are the words (and ideas) that you use to describe yourself - in your head. 
 For instance, while you might be someone who build rocket ships, your identity might be "I am a `family man`". Or “I am a `craftsman engineer` making ships for space travel”
@@ -79,9 +77,9 @@ If you have not filled in your three, please pause - take a quick second and typ
 
 ---
 
-Cool, I hope you have your three written or typed somewhere accessible.
+Cool, I hope you have your three written or typed somewhere accessible. Let's carry on. We'll come back to it, I promise. 
 
-# **Don't bask in Reflected Glory**
+# **Don't Bask in Reflected Glory**
 
 That's it. That is the only thing I want you to do and you will be on your way to learning **how do I avoid these labels**?
 
@@ -166,5 +164,24 @@ Given that you've read this piece so far, I hope something for you.
 
 I hope that when you go to sleep tonight - you will sleep with the resolution to not bask in reflected glory of your friends and family. 
 
-No matter how much you love them. You will be proud of them. And you will not bask in their glory. 
-It's their spotlight and you will not even a light a candle to steal that.
+No matter how much you love them. You will be proud of them. And you will not bask in their glory.
+Don't bask in their reflected glory. 
+
+It's their spotlight and you will not even a light a candle to steal that
+
+# Your Three
+
+Remember the three blanks we filled? Those are the your borrowed labels. No matter how innocent, they cloud your judgment. 
+
+Those are the ideas - and people whose reflected glory you are stealing unknowingly
+
+Even the `Get things done` is basking under the reflected glory of people who actually get things done. It clutters your thinking by making you swing for the extremes. By not letting you slow down.
+
+It might be quite some time before my friend sees that it's about the getting the _right_ things done. 
+
+That we are human beings, not human doings. 
+
+*The moon waxes and wanes because it basks in reflected glory - but even the darkest clouds cannot hide the glory of sun*
+
+>> When your contributions are meaningful enough, you don't need borrowed glory. 
+> The sun shines it's own light, it's the moon that steals light
