@@ -3,7 +3,7 @@ title =  "ML Model Monitoring"
 date = 2019-09-21T23:29:18+05:30
 tags = ["python", "machine learning", "production ml"]
 featured_image = "images/ink.png"
-description = "How to keep your identity small?"
+description = "Guide to Monitoring your ML Models in Production"
 toc = true
 show_reading_time = true
 +++
@@ -12,19 +12,21 @@ show_reading_time = true
 
 Mayank asked on [Twitter](https://twitter.com/MayankSatnalika/status/1175446811860824064): 
 
-> Some ideas/ papers/ tools on  monitoring models in production. A use case would be say a classification task over large inputs and I visualise how are the predicted values or even confidence scores very over time? 
+> Some ideas/papers/tools on  monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
 
 ## Quick Hacks
 
 ### pandas-profiling
 
-If you are logging confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
+If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling:
+https://github.com/pandas-profiling/pandas-profiling/
+
 
 ### Rolling means
 
-Similarly quick is to calculate rolling aggregates (e.g. mean, variance) of your confidence scores and add them to your set of monitoring and alerting product metrics. 
+Calculate rolling aggregates (e.g. mean, variance) of your confidence scores. pandas inbuilt. Quite quick. Add them to your set of monitoring and alerting product metrics. 
 
-A slightly better version of this would be to do it on cohort level. Actually, doing all of the following analyis on cohort level makes sense:
+A better version of this would be to do it on cohort level. Actually, doing all the following analysis on cohort level makes sense.
 
 ### Confidence Scores and Thresholds
 
@@ -42,13 +44,14 @@ What you should also do is this:
 
 - Find out samples which have high confidence and tag them first, this is a form of negative sample mining
 
-- In case of multi-class: Figure out samples which have low confidence, but the highest prediction is correct -- add these back to your new training+validation set first
+- For multi-class classification: Figure out samples which did not clear your threshold, and the prediction is correct. Add these back to your new training+validation set
 
-- Tag samples which are too close to the threshold (or close to the hyperplane separating the classes) - this will help you understand your model and dataset's (vaguely) _margin of separation_ better
+
+- Tag samples which are too close to the threshold. This will help you understand your model and dataset's _margin of separation_ better
 
 ## Training-Serving
 
-Let me share a secret with you Mayank: You can discover some of the most frequent issues with your model-in-production issues just by investigating **training-serving skews** or differences. 
+The most common causes of trouble in production ML models is **training-serving skews** or differences.
 
 The differences can be on 3 levels:
 Data, Features, Predictions
@@ -61,13 +64,14 @@ Schema change - someone dropped a column!,
 Class Distribution Change - When did this 10% training class have 20% predictions, or 
 Data Input Drift - users have started typing instead of copy-pasting!
 
-### Schema skew (copied from Google's ML Guide)
-Training and serving input data do not conform to the same schema. 	The format or distribution of the serving data changes while your model continues to train on old data. 	
+### Schema skew (from Google's ML Guide)
+Training and serving input data do not conform to the same schema. 	The format of the serving data changes while your model continues to train on old data. 	
 
 **Solution?** Use the same schema to validate training and serving data. Ensure you separately check for statistics not checked by your schema, such as the fraction of missing values 
 
 ### Class Distribution check with Great Expectations
-Training and serving input data do not conform to the same class frequency distribution. After confirming that this has indeed happened for valid reasons, update the model by training with updated frequency distribution of each class.
+Training and serving input data should conform to the same class frequency distribution. 
+Confirm this. If not, update the model by training with updated class frequency distribution. 
 
 For monitoring these first two, check out: https://github.com/great-expectations/great_expectations
 
@@ -75,16 +79,17 @@ For understanding data drift, you need to visualize data itself. This is too dat
 
 ## Feature Viz for Monitoring 
 
-Almost all models for high dimensional data (images or text), indirectly or directly *vectorize* data. I am using features and vectorized embedding as loosely synonymous here.
+Almost all models for high dimensional data (images or text) *vectorize* data. I am using features and vectorized embedding as loosely synonymous here.
 
 Let's take text as an example:
 
 ### Class Level with umap
-With umap https://github.com/lmcinnes/umap, you can get plots like these for pretty much any vector space on the class level:
+
+Use any dimensionality reduction like PCA or umap (https://github.com/lmcinnes/umap) for your feature space. Notice that these are on class level. 
 
 ![umap-tweet-plots](https://raw.githubusercontent.com/NirantK/blog/master/content/images/umap-tweets-plot.png "UMAP Tweet Plots")
 
-Plot similar plots for both training and test, and see if they have visually similar distributions. 
+Plot similar plots for both training and test, and see if they have similar distributions. 
 
 ## Prediction Viz for Monitoring
 
@@ -100,7 +105,7 @@ Check out other black box ML explainers: https://lilianweng.github.io/lil-log/20
 
 ### Class Level
 
-You can aggregate your predictions across multiple sameples on a class level:
+You can aggregate your predictions across multiple samples on a class level:
 
 ![agg-lime-viz](https://raw.githubusercontent.com/NirantK/blog/master/content/images/agg-lime-viz.png "Aggregated Lime Visualization for Explaining Model Predictions on Class Level")
 
