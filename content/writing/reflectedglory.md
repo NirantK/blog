@@ -89,7 +89,7 @@ Reflected Glory is the invisible demon which will lead you to the butcher, chop 
 
 Reflected glory is how Satan wins over honest, smart and hard working people. It is insidious. Sinister. Subtle. 
 
-### In Professional Circles
+## In Professional Circles
 
 Even in certain careers, labeling yourself can be a career limiting move:
 
@@ -102,14 +102,7 @@ The professional label is aspirational.
 
 The worse off are your professional skills, the more you need to riff on the shared professional identity of amazing folk in your profession. 
 
-There can be innocous reasons to use professional labels. For instance, it makes it easy for others to identify what I do.
-Even then, we should be conscious to not internalize this. 
-
 Here is an important nuance which I constantly remind myself of: 
-
-```
-I am not a programmer, I write programs
-```
 
 Stop calling yourself a programmer
 
@@ -117,7 +110,7 @@ Don't bask in Reflected Glory
 
 Keep your identity small
 
-### In Politics
+## In Politics
 
 > "People like us ... " - wait, go deeper and think. Your mental dialog will begin: "What does he mean by us? I am nobody. Why does a nobody matter? Is he using my emotions as a stepping stone to get where he wants to go?"
 
@@ -155,7 +148,7 @@ Don't bask in reflected glory
 
 Keep your identity small
 
-### In Casual Conversation 
+## In Casual Conversation 
 
 > "Look at Michael, an Olympic athlete, I knew him in college" - wait, and think. 
 > You might end up going this way: "Why is that relevant in this conversation? Is this an offer to make an intro to the Olympian, so that I improve my game? Or is this just banter-bragging? And why brag?"
@@ -174,4 +167,4 @@ Given that you've read this piece so far, I hope something for you.
 I hope that when you go to sleep tonight - you will sleep with the resolution to not bask in reflected glory of your friends and family. 
 
 No matter how much you love them. You will be proud of them. And you will not bask in their glory. 
-It's their spotlight and you will not even a light a candle to steal that. 
+It's their spotlight and you will not even a light a candle to steal that.
