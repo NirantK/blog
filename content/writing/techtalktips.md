@@ -46,6 +46,12 @@ tl;dr: Do not block the message with your actions. Put in the work to get the me
 > Assume one story arc is approx per 10 mins of speaking. A mental model of "telling a fun story to someone you've met a few times" helps.
 - From Sidu Ponappa (@ponappa), GoJek India MD
 
-# More good 
-- [Technical Speaking Archives](https://twitter.com/techspeakdigest?lang=en)
 
+## Don’t fear live coding or live demos
+
+> For technical talks, I’m a big fan of live coding or live demos, as opposed to presenting all the material on slides. Audiences like live coding better than slides, because they actually get to see how the system works, as opposed to looking at static snapshots of a perfect working system. Have all my live coding talks gone perfectly? No, but I’ve found audiences to be very understanding when things go awry. Everyone knows that there is risk involved, and I’ve even had people tell me they learned more when they watched the recovery from (or explanation of) an error than they would have by watching glossy slides fly by. Audience attention is definitely higher for live coding talks.
+
+- [Public Speaking Tips](https://cjshaver.com/bl0166/) by Chris Shaver, includes a great list of broadly applicable advice
+
+# More good
+- [Technical Speaking Archives](https://twitter.com/techspeakdigest?lang=en)
