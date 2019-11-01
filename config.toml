@@ -35,8 +35,8 @@ identifier = "now"
 url = "/now"
 
 [[menu.main]]
-name = "essays"
-identifier = "essays"
+name = "writing"
+identifier = "writing"
 url = "/writing"
 
 [[menu.main]]
