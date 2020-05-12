@@ -1,6 +1,6 @@
 +++
 title =  "Fail Resume"
-date = 2020-05-15T23:29:18+05:30
+date = 2020-05-09T23:29:18+05:30
 tags = ["notesforself"]
 toc = true
 featured_image = ""
