@@ -3,7 +3,7 @@ baseurl = "https://nirantk.com/"
 languageCode = "en"
 
 title = "Nirant Kasliwal"
-theme = "hello-friend-ng"
+theme = "ananke"
 
 [sitemap]
   changefreq = "monthly"
