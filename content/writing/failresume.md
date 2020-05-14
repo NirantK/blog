@@ -11,7 +11,7 @@ A fail resume is, as its name suggests, a list of rejections and setbacks.
 
 This concept originated in [academia](https://www.nytimes.com/2019/02/03/smarter-living/failure-resume.html), but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
 
-I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. 
+I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” (or _fail_) here is based solely on my own judgement. 
 It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress). 
 
 # 2020
@@ -37,4 +37,4 @@ It’s important to not only list the failures, but also learn from them, so I w
 # 2016
 - Did not even clear Amazon's first programming round on campus
 
-Inspired from [Katherine Huang's Fail Resume](https://katmh.com/fail/)
+Inspired from [Katherine Huang's Fail Resume](https://katmh.com/fail)
