@@ -9,10 +9,10 @@ Hiya! I'm Nirant! It means the _calm of the forest_ in Gujarati, Sanskrit and Pr
 3 things I want you to know about me:
 
 1. Make $$ doing NLP. Even wrote a [book](#book) about NLP. I [talk a lot](#talks) about it too
-2. I write blogs about career, technology and business: [Newsletter](niranting.substack.com)
+2. I write blogs about career, technology and business: [Newsletter](https://niranting.substack.com)
 3. I'm always happy to help those who ask crisp and descriptive questions. Write to me at hello [at] nirantk.com anytime
 
-You should also checkout my [now](https://nirantk.com/now) page if you're curious about what I'm upto recently
+You should also checkout my [now](../now) page if you're curious about what I'm upto recently
 
 ## Book
 ### NLP in Python: Quickstart Guide

@@ -8,8 +8,6 @@ toc = true
 show_reading_time = true
 +++
 
-# ML Model Monitoring
-
 Mayank asked on [Twitter](https://twitter.com/MayankSatnalika/status/1175446811860824064): 
 
 > Some ideas/papers/tools on  monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
@@ -46,7 +44,6 @@ What you should also do is this:
 
 - For multi-class classification: Figure out samples which did not clear your threshold, and the prediction is correct. Add these back to your new training+validation set
 
-
 - Tag samples which are too close to the threshold. This will help you understand your model and dataset's _margin of separation_ better
 
 ## Training-Serving
@@ -55,8 +52,6 @@ The most common causes of trouble in production ML models is **training-serving 
 
 The differences can be on 3 levels:
 Data, Features, Predictions
-
-The better hack would be to consider a rolling mean of 
 
 ## Data Differences 
 Data differences can be of several types, the most frequest are these:
@@ -108,6 +103,16 @@ Check out other black box ML explainers: https://lilianweng.github.io/lil-log/20
 You can aggregate your predictions across multiple samples on a class level:
 
 ![agg-lime-viz](https://raw.githubusercontent.com/NirantK/blog/master/content/images/agg-lime-viz.png "Aggregated Lime Visualization for Explaining Model Predictions on Class Level")
+
+
+## Training Data Checks
+
+Expanding on [@aerinykim's tweet](https://twitter.com/aerinykim/status/1259945059085987843)
+
+### Robustness
+
+Adding in-domain noise or perturbations should not change the model training and inference both.
+
 
 # Citations and Resources
 

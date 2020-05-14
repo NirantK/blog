@@ -26,9 +26,9 @@ Have you done any decent Machine Learning projects? What is the largest data siz
 Summers and semester internship programs in a Machine Learning or Data Science role. I did my semester internship at a startup and skipped Amazon against lot of prevailing (and probably correct) wisdom at the time. I was grilled on my intern project in my campus interview.
 
 ## Share your results
-Share like a madman: Nn a Medium blog, put your code on Github and get a paper published. It is easier (and more tedious) than most people think. My friend’s first paper was in a reputed Springer Lecture Notes in Computer Science. He did not get any guidance from any Professor.
+Share like a madman: In a Medium blog, put your code on Github and get a paper published. It is easier (and more tedious) than most people think. My friend’s first paper was in a reputed Springer Lecture Notes in Computer Science. He did not get any guidance from any Professor.
 
-## Build more demos 
+## Demo or Die 
 Projects on the web, projects which can be demo'd using a video or something similar. Essentially, a portfolio that you can showcase to potential recruiters. I walked into an interview with a video of my previous project on phone.
 
 Linkedin India hires as Software Engineers but allows you to grow into a Data Science role. Microsoft Research has among the best research organisations in Computer Science in India. I’d love to work there.
