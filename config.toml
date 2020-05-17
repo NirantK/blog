@@ -30,6 +30,11 @@ identifier = "about"
 url = "/about"
 
 [[menu.main]]
+name = "newsletter"
+identifier = "newsletter"
+url = "https://niranting.substack.com/"
+
+[[menu.main]]
 name = "now"
 identifier = "now"
 url = "/now"
