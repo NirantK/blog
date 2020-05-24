@@ -4,15 +4,19 @@ featured_image = ""
 description = ""
 +++
 
-Hiya! I'm Nirant! It means the _calm of the forest_ in Gujarati, Sanskrit and Prakrit. The last two are languages, all but lost to time.
+## Me in 10 seconds
 
-3 things I want you to know about me:
+I've been doing NLP (Natural Language Processing) for a bit, and did Computer Vision, Embedded ML and Predictive Analytics before. 
 
-1. Make $$ doing NLP. Even wrote a [book](#book) about NLP. I [talk a lot](#talks) about it too
-2. I write blogs about career, technology and business: [Newsletter](https://niranting.substack.com)
-3. I'm always happy to help those who ask crisp and descriptive questions. Write to me at hello [at] nirantk.com anytime
+Even wrote a [book](#book) about NLP. I [talk a lot](#talks) about it too.
 
-You should also checkout my [now](../now) page if you're curious about what I'm upto recently
+I write blogs about career, technology and business: [Newsletter](https://niranting.substack.com)
+
+Ambivert, not smart, and curious about weird ideas.
+
+Surat, Gujarat native. I now live in Bengaluru. 
+
+I'm always happy to help those who ask crisp and descriptive questions. Write to me at hello [at] nirantk.com anytime
 
 ## Book
 ### NLP in Python: Quickstart Guide
