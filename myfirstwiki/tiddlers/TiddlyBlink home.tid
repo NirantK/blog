@@ -1,0 +1,9 @@
+created: 20200128030902225
+modified: 20200613102931379
+tags: tb meta
+title: TiddlyBlink home
+type: text/vnd.tiddlywiki
+
+<span style="color:red">Hi there! I have now replaced ~TiddlyBlink with [[Stroll|https://giffmex.org/stroll/stroll.html]], and highly recommend using Stroll instead of ~TiddlyBlink or its unpopular cousin Idea Stew. Nevertheless I will leave this here since there will no doubt be holdouts who prefer ~TiddlyBlink.</span>
+
+<<tabs "TiddlyBlink .topicList .sourcesList .hideList" "TiddlyBlink" >>

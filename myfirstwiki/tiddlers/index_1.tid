@@ -1,0 +1,23 @@
+created: 20200613050302970
+creator: NirantK
+modified: 20200613103407037
+modifier: NirantK
+tags: 
+title: index
+type: text/vnd.tiddlywiki
+
+First time here? Begin at [[Narrative]]
+
+This web book originated from this single [[tweet|https://twitter.com/MohapatraHemant/status/1270942020995936256]] by @MohapatraHemant
+
+The intent is to explore our curiosity for Muskesh Ambani's businesses. I, NirantK call these the Gilded Age businesses. 
+
+This is a dummy article. [[This is a link without a preview|Another dummy article]].
+
+<div class="tooltip">[[This is a link with a preview|Mukesh]]<div class="tooltiptext"><$transclude tiddler="Mukesh" mode="block"/></div></div>.
+
+# [[Commonplace]]: How to make the most of this guide
+# [[Narrative]]
+# [[Themes]]
+# [[Characters]]
+# [[References]]
