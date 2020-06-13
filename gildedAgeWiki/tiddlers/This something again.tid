@@ -1,0 +1,9 @@
+created: 20200613050323030
+modified: 20200613050338111
+tags: 
+title: This something again
+type: text/vnd.tiddlywiki
+
+```
+tiddlywiki --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain --rendertiddler $:/core/templates/static.template.css static/static.css text/plain
+```
