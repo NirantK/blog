@@ -2460,8 +2460,3 @@ background-color: <<colour tiddler-info-background>>;}
   border:0px solid #eee;background-color:#eee;
   word-break: break-all; word-wrap: break-word;}
 
-.tc-tiddler-controls {
-   display: none;
-}.tc-tab-buttons {
-   display: none;
-}

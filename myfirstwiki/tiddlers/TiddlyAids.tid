@@ -1,6 +1,6 @@
 created: 20200613110737994
 creator: NirantK
-modified: 20200614041209252
+modified: 20200614054404249
 modifier: NirantK
 tags: 
 title: TiddlyAids
@@ -13,3 +13,15 @@ This is a dummy article. [[This is a link without a preview|index]].
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mzoMhKx0j8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+CSS for removing tiddler-controls and tab-buttons from static pages
+```
+.tc-tiddler-controls {
+   display: none;
+}
+
+.tc-tab-buttons {
+   display: none;
+}
+```
