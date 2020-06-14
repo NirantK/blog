@@ -1,8 +1,9 @@
 caption: topics
 created: 20200128030955660
-modified: 20200613102930993
+modified: 20200614031007661
 tags: tb meta
 title: .topicList
+tmap.id: 1255ad5e-bd68-44b2-85de-519e55f505c5
 type: text/vnd.tiddlywiki
 
 Topics are any notes that do not have `202` in their title field (i.e., tiddlers created with the clock icon buttons), and are not tagged with any of the following tags: `hide`, `meta`, `outlines`, or `sources`. 

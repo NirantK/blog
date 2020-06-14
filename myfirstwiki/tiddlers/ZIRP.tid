@@ -1,10 +1,13 @@
 created: 20200613102710230
-modified: 20200613102806256
+creator: NirantK
+modified: 20200614032622285
+modifier: NirantK
 title: ZIRP
+tmap.id: 8103fa5f-7b4a-4ed3-8d90-2d0f6d23b5ee
 type: text/vnd.tiddlywiki
 
-[[References]] [[Concepts]]
-
+[[Concepts]]
+Zero interest-rate policy is a macroeconomic concept describing conditions with a very low nominal interest rate. This is believed to lower cost of capital, thereby increasing liquidity in the economy.
 
 What is ZIRP?
 https://en.wikipedia.org/wiki/Zero_interest-rate_policy
