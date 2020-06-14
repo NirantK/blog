@@ -1,6 +1,6 @@
 created: 20200613050035513
 creator: NirantK
-modified: 20200614054137917
+modified: 20200614055002368
 modifier: NirantK
 title: $:/core/templates/static.tiddler.html
 type: text/vnd.tiddlywiki
@@ -29,7 +29,7 @@ type: text/vnd.tiddlywiki
 <div class="tc-sidebar-scrollable" style="overflow: auto;">
 <div class="tc-sidebar-header"><h1 class="tc-site-title">Jio-poly and India's Gilded Age</h1></div>
 
-<div class="tc-site-subtitle">Non-linear web Notebook by [[NirantK]] to explore India's Gilded Age and [[Jio Platforms]]</div>
+<div class="tc-site-subtitle">Non-linear web Notebook to explore India's Gilded Age and Jio Platforms</div>
 </div>
 `{{$:/StaticBanner||$:/core/templates/html-tiddler}}`
 <section class="tc-story-river">
