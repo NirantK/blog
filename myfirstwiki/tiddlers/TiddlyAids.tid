@@ -1,0 +1,15 @@
+created: 20200613110737994
+creator: NirantK
+modified: 20200614041209252
+modifier: NirantK
+tags: 
+title: TiddlyAids
+tmap.id: ef86661a-8b91-41f0-901c-ff8ae9a31011
+type: text/vnd.tiddlywiki
+
+This is a dummy article. [[This is a link without a preview|index]].
+
+<div class="tooltip">[[This is a link with a preview|index]]<div class="tooltiptext"><$transclude tiddler="index" mode="block"/></div></div>.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mzoMhKx0j8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

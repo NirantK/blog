@@ -1,0 +1,10 @@
+config.neighbourhood_scope: 1
+config.physics_mode: false
+config.show_inter_neighbour_edges: false
+created: 20200614032705206
+creator: NirantK
+isview: true
+modified: 20200614032715569
+modifier: NirantK
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default
+type: text/vnd.tiddlywiki

@@ -1,0 +1,11 @@
+caption: Name as shown in menu
+created: 20200614044739007
+creator: NirantK
+modified: 20200614044821585
+modifier: NirantK
+tags: $:/tags/TextEditor/Snippet
+title: Tooltip
+tmap.id: dd231821-4081-46f3-9a19-164870fa3131
+type: text/vnd.tiddlywiki
+
+<div class="tooltip">[[index||index]]<div class="tooltiptext"><$transclude tiddler="index" mode="block"/></div></div>
