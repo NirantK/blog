@@ -68,7 +68,7 @@ Shreyas:
 
 Shreyas: 
 
-1. Preventing myself from getting into the technical details has been pretty hard. I've come to look at it this way: If things break, I'm not going to be the one who is going to dive in and fix it; that'll be the engineers. So, I should stop getting too involved here. (credit to @Pentropy for this advice)
+1. Preventing myself from getting into the technical details has been pretty hard. I've come to look at it this way: If things break, I'm not going to be the one who is going to dive in and fix it; that'll be the engineers. So, I should stop getting too involved here. (credit to [@Pentropy](https://twitter.com/pentropy) for this advice)
 
 2. Writing in a way that non-technical folks can understand you has been challenging. (However, I think you will have no problem here, based on what I've seen of your writing from when you were in Soroco)
 
