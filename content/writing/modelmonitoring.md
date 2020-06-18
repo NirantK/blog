@@ -1,7 +1,7 @@
 +++
 title =  "ML Model Monitoring"
 date = 2019-09-21T00:00:18+05:30
-tags = ["python", "machine learning", "production ml"]
+tags = ["tech", "machine learning", "production ml"]
 featured_image = "images/ink.png"
 description = "Guide to Monitoring your ML Models in Production"
 toc = true

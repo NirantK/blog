@@ -1,7 +1,7 @@
 +++
 title =  "Math for Machine Learning"
 date = 2019-10-27T23:29:18+05:30
-tags = ["math", "machinelearning", "resource_list", "matrix_calculus","tech", "deeplearning"]
+tags = ["machine-learning", "tech"]
 description = "The most exhaustive list of resources that I know of"
 toc = true
 show_reading_time = true
