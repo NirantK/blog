@@ -1,1 +1,0 @@
-Paste a tiddler title to view tiddler in tab: <$edit-text tiddler="$:/temp/sbartidddisplayvalue" placeholder="tiddler title" tag="input" type="text"/>
