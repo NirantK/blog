@@ -1,7 +1,7 @@
 +++
 title =  "Don't Bask in Reflected Glory"
 date = 2019-09-18T00:00:09+05:30
-tags = ["notes for self"]
+tags = ["niranting"]
 description = "How to keep your identity small?"
 toc = true
 show_reading_time = true

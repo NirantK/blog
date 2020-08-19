@@ -1,7 +1,7 @@
 +++
 title =  "The Good Fight"
 date = 2017-12-15T00:00:09+05:30
-tags = ["notes for self"]
+tags = ["niranting"]
 description = "The Pursuit of Happiness is Futile"
 toc = true
 show_reading_time = true

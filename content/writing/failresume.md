@@ -1,7 +1,7 @@
 +++
 title =  "Fail Resume"
 date = 2020-05-09T23:29:18+05:30
-tags = ["notes-for-self"]
+tags = ["niranting"]
 toc = true
 featured_image = ""
 description = ""

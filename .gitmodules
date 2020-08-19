@@ -14,3 +14,9 @@
 [submodule "gildedAgeWiki/output/static"]
 	path = gildedAgeWiki/output/static
 	url = https://github.com/NirantK/gildedage
+[submodule "hugo-theme-novela"]
+	path = hugo-theme-novela
+	url = https://github.com/forestryio/hugo-theme-novela.git
+[submodule "themes/papercss-hugo-theme~"]
+	path = themes/papercss-hugo-theme~
+	url = https://github.com/zwbetz-gh/papercss-hugo-theme.git
