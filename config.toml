@@ -20,7 +20,6 @@ theme = "ananke"
 
 pygmentsUseClassic=true
 pygmentsUseClasses=true
-enableRobotsTXT = true
 relatedPosts = true
 postNavigation = true
 
