@@ -3,27 +3,18 @@ title : "Bezos & Amazon Inc."
 draft : true
 ---
 
-Bezos & Amazon Inc. 
----
-
-This short page is my personal collection of lessons, ideas, observation, & notes. 
+This short page is my personal collection of lessons, ideas, observation, & notes. They mostly concern Bezos, with some love for Ambani as well.
 
 I don't expect them to be useful for anyone except me, but hey - if you do, say Hi to me on [Twitter](https://twitter.com/@NirantK)
 
-## Introductory
+## Mega-Tech of the Future
 
-This is mostly obvious stuff. 
-- Book - [The Everything Store](https://www.amazon.in/dp/B00DJ3ITKS/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
-- [Betting on Things that Never Change](https://www.collaborativefund.com/blog/betting-on-things-that-never-change/) by Morgan Housel
 
-## Observations
 
-These are nebulous ideas or dots. I don't know how they connect. 
+
 - ReCode Podcast - [How Jim Collins Helped Amazon Rescue Itself](https://player.fm/series/recode-decode-with-kara-swisher/how-good-to-great-author-jim-collins-helped-amazon-rescue-itself)
-- [Peter Thiel tells Eric Schimdt](https://www.youtube.com/watch?v=snMWgvMgWr4&feature=youtu.be
-) in 2012 that Amazon is the only mega-tech that knows how to invest in the future: 
-
-[What is Amazon?](https://zackkanter.com/2019/03/13/what-is-amazon/) is an interesting essay from Zack Kanter which takes a stab at understanding what makes Amazon click, by contrasting it with Walmart
+- [Peter Thiel tells Eric Schimdt](https://www.youtube.com/watch?v=snMWgvMgWr4&feature=youtu.be) in 2012 that Amazon is the only mega-tech that knows how to invest in the future: 
+- [What is Amazon?](https://zackkanter.com/2019/03/13/what-is-amazon/) is an interesting essay from Zack Kanter which takes a stab at understanding what makes Amazon click, by contrasting it with Walmart
 
 ## Frameworks / Mental Models
 
@@ -33,3 +24,11 @@ These are meta-ideas that I rely to make a sense of things, specially organisati
 
 Special thanks to [Abhinay Peddisetty](https://twitter.com/abh1nay) for inspiring this.
 
+## Further Reading
+- Book - [The Everything Store](https://www.amazon.in/dp/B00DJ3ITKS/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+- Blog - [Betting on Things that Never Change](https://www.collaborativefund.com/blog/betting-on-things-that-never-change/) by Morgan Housel
+
+## End Notes
+
+### Disclaimer
+I own no equity in Amazon. Have never been employed there. I wish someone was paying me to write this, but they're not. 

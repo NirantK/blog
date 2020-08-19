@@ -1,7 +1,7 @@
 +++
 title = "Shreyas Karanth: Moving from SW Engg to Product"
 date = 2020-06-15T00:09:00+05:30
-tags = ["niranting"]
+tags = ["exclusive-convo"]
 description = "Challenges & Joys"
 toc = true
 featured_image= "/images/shreyas.jpg"

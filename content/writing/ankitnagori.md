@@ -1,7 +1,7 @@
 +++
 title =  "Ankit Nagori, Co-Founder of Cult"
 date = 2020-04-30T00:00:09+05:30
-tags = ["niranting"]
+tags = ["exclusive-convo"]
 description = "Cult Journey to 1M DAU, Personal Career Moats and more"
 toc = true
 featured_image= "/images/curefit.jpg"

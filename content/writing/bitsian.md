@@ -1,6 +1,6 @@
 +++
 title = "The BITS Pilani Experience"
-date = 2020-08-09T00:09:00+05:30
+date = 2017-11-24T00:09:00+05:30
 tags = ["niranting"]
 description = "It's Magic"
 toc = false

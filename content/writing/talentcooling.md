@@ -2,9 +2,9 @@
 title = "Talent Cooling"
 date = 2020-08-14T00:09:00+05:30
 tags = ["career", "niranting"]
-description = ""
+featured_image = "/images/talent-cooling.jpg"
 toc = false
-show_summary = false
+show_reading_time = true
 +++
 
 # Talent Cooling Kills Startup Growth

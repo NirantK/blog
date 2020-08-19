@@ -11,13 +11,7 @@ description = ""
 Work: I look at Machine Learning and Natural Language stuff for [Verloop](https://verloop.io). 
 We help make customer support more humane.
 
-## Torschlusspaniki
-[About the word Torschlusspaniki](https://blogs.transparent.com/german/torschlusspanik/)
-My previous workplaces made a serious dent in the size of my dreams. 
-
-Psychological safety is a weird concept. I wish more leaders understood this intuitively.  
-
 ---
-Last Updated in October 2019 from Bengaluru, India
+Last Updated in August 2020 from Bengaluru, India
 
 The concept of now page is from [Derek Sivers](https://sivers.org/nowff)
