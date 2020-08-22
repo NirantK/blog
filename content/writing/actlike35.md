@@ -67,3 +67,5 @@ Build your own playbook:
 
 * [Essential Networking Advice](https://firstround.com/review/reach-out-stay-in-touch-and-deepen-your-connections-with-this-essential-networking-advice/)
 * [So Good They Can’t Ignore You](https://www.amazon.com/gp/product/1455509124/) - Cal Newport
+
+<iframe src="https://niranting.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
