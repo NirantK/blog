@@ -38,7 +38,7 @@ At Verloop, the same team of engineers owns the entire stack from research to pr
     - Does: Trains forward looking, NOT production ready models. Focussed on experimentation
     - Tools: huggingface/transformers, spaCy, flair (by Zolando Research)
 
-All of the above is done by MLE at Verloop. Every engineer is expected to build a strong suite in one or more of the above roles, while maintaining a "high" minimum at the others. 
+All of the above is done by MLE at Verloop. Every engineer is expected to build a strong suite in one or more of the above roles, while maintaining a high minimum at the others. 
 
 Verloop MLE often contribute to adjacent/overlapping challenges such as DevOps for Machine Learning aka ML Ops. These are often problems in model serving, automated deployment, data versioning, model monitoring, alerting and other parts of developer tooling.
 
@@ -83,7 +83,7 @@ We’re looking to see how you engage with the problem and your primary method f
 
 Be sure to talk through your thought process and feel free to ask specific questions if you need clarification.
 
-** Do your Homework** -- The primary reason that this is a Take Home Challenge plus a discussion is that we don't want to evaluate your ability to think on your feet. 
+**Do your Homework** -- The primary reason that this is a Take Home Challenge plus a discussion is that we don't want to evaluate your ability to think on your feet. 
 
 That said, if you come to the interview without enough homework on your own submission and question -- you'll be put in a place where a lot of thinking will in fact be on your feet.
 
