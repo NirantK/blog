@@ -16,7 +16,7 @@ theme = "ananke"
   linkedin="https://www.linkedin.com/in/nirant"
   twitter = "https://twitter.com/@NirantK"
   github="https://github.com/NirantK"
-  recent_posts_number = 3
+  recent_posts_number = 5
 
 pygmentsUseClassic=true
 pygmentsUseClasses=true
