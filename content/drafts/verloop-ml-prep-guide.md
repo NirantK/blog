@@ -37,7 +37,7 @@ At Verloop, the same team of engineers owns the entire stack from research to pr
     - Does: Trains forward looking, NOT production ready models. Focussed on experimentation
     - Tools: huggingface/transformers, spaCy, flair (by Zolando Research)
 
-All of the above is done by MLE at Verloop. Every engineer is expected to build a strong suite in one or more of the above roles, but not by neglecting the others. MLE can even contribute to adjacent/overlapping challenges such as DevOps for Machine Learning aka ML Ops. These are often problems in model serving, automated deployment and the like. 
+All of the above is done by MLE at Verloop. Every engineer is expected to build a strong suite in one or more of the above roles, while maintaining a "high" minimum at the others. MLE often contribute to adjacent/overlapping challenges such as DevOps for Machine Learning aka ML Ops. These are often problems in model serving, automated deployment and the like. 
 
 Part of the following role got absorbed into what I've been doing as a Machine Learning Manager because we did not have a full time Product Manager in the company for more than 6 months:
 
