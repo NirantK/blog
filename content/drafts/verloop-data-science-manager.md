@@ -1,9 +1,10 @@
 +++
 title = "Reflections on Building a Machine Learning Team at a Startup"
 description = ""
-date = 2020-09-01T00:09:00+05:30
-tags = ["career", "verloop", "tech"]
+date = 2020-08-30T00:09:00+05:30
+tags = ["career", "verloop", "machine learning", "tech"]
 toc = true
+draft = true
 show_reading_time = true
 +++
 
@@ -17,6 +18,14 @@ I hope this answers the following question:
 * "What would it be like to be a Data Science Manager?"
 * "How can I build a Machine Learning team from scratch?" 
     * This is typically founders e.g. CEO/CTO looking to build out a Machine Learning function 
+
+---
+
+*_I'm hiring for multiple ML Roles, including a Lead Position*_
+
+*_If this is something which interests you, are you are interested in working with us, please directly book a calendly slot with me here: _*.
+
+---
 
 <!-- # Simplifying Decisions
 
@@ -124,6 +133,10 @@ This is the **org design at Verloop ML today**.
 From the top of my head, I don't know of any large businesses which have executed this well except for TikTok and Baidu. The defining characteristic of this org design is that the ML Lead reports directly to the CEO.
 
 The CEO directly brings the business context and drives quick wins. The ML Lead needs to negotiate continuously on organisational goals, constantly query for added context, and makes long term bets.
+
+Part of the ML Product Manager role also got absorbed into what I've been doing as a Machine Learning Manager because we did not have a full time Product Manager in the company for more than 6 months:
+- Does: Work with ML team, data owners to prioritize, execute and spec out projects
+- Tools: Jupyter for PoC, JIRA, Slack, Google Docs for Comms
 
 The only real advantage of this org design is that it makes attracting talent easier by giving them quite high autonomy. The team also owns model performance and deployment. The deployment ownership is made possible by a ML Sytem Design decision as well: The strong adherence to multi-tenant models instead of client specific models.
 

@@ -1,7 +1,7 @@
 +++
 title = "Data Science Career Notes"
 date = 2020-07-31T00:09:00+05:30
-tags = ["career", "tech"]
+tags = ["career", "machine learning", "tech"]
 description = "Mega Brain Dump which I'll keep expanding on"
 toc = true
 draft = true

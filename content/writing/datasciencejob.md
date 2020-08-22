@@ -1,7 +1,7 @@
 +++
 title =  "How to prepare for a Data Science job from college?"
 date = 2016-12-12T23:29:18+05:30
-tags = ["career", "tech"]
+tags = ["career", "machine learning", "tech"]
 featured_image = "images/ink.png"
 description = "Data Science: Breaking Into the Industry"
 toc = true
