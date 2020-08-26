@@ -20,7 +20,7 @@ This is also my answer for what I think is true, but almost no one agrees with m
 
 - There is no higher purpose. Why would a microscopic life from a floating blue speck in the dark cold space have a higher purpose? It’s arrogant to assume otherwise
 
--  Serve the man next to you, then the one next to him and so on. 
+- Serve the man next to you, then the one next to him and so on 
 
 - Follow the [Paradoxical Commandments](http://www.paradoxicalcommandments.com/), not because they help, but follow them anyway. 
 
@@ -37,27 +37,16 @@ All-you-can eat buffets are scams. Having good looks or being visibly rich is a 
 
 # On Money
 
--    Time value of money is underrated
+- Time value of money is underrated
 
--    Money is like sex. It’s good to have a lot of it when you are young. That still won’t fill the hole left in your heart by not having a philosophy
+- Money is like sex. It’s good to have a lot of it when you are young. That still won’t fill the hole left in your heart by not having a philosophy
 
--   If you’ve money, invest in your learning by paying for coffees with smarter people. Books, blogs, and those Coursera courses are a slow learning curve
+- If you’ve money, invest in your learning by paying for coffees with smarter people. Books, blogs, and those Coursera courses are a slow learning curve
 
-# On Random Things
+# On Work-Life Balance
 
-## On Work-Life Balance
-
-[The Case Against Work Life Balance](http://shyamsankar.com/the-case-against-work-life-balance-owning-your-future) is stronger than ever. 
-
-- Related: Keep looking for your [Gamma Radiation](http://shyamsankar.com/gamma-radiation-the-incredible-hulk-as-a-model-for-personal-growth)
-
-## On Romance
-
-The men are the romantics, the women are the pragmatic ones. Be aware of this reality. 
-
-Be vulnerable, but not fatally exposed. 
-
-Always survive.
+- [The Case Against Work Life Balance](http://shyamsankar.com/the-case-against-work-life-balance-owning-your-future) is stronger than ever. 
+    - Related: Keep looking for your [Gamma Radiation](http://shyamsankar.com/gamma-radiation-the-incredible-hulk-as-a-model-for-personal-growth)
 
 ---
 An older version of this lives on [Medium](https://medium.com/@NirantK/strong-beliefs-loosely-held-4d11fa2413b2)

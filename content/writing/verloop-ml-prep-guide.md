@@ -1,6 +1,6 @@
 +++
-title = "Verloop ML Interview Prep Guide"
-description = "What we share with our ML candidates"
+title = "Verloop NLP Interview Prep Guide"
+description = "What we share in our ML/NLP round"
 date = 2020-08-29T00:09:00+05:30
 tags = ["career", "machine learning", "verloop", "tech"]
 toc = true
@@ -9,18 +9,18 @@ show_reading_time = true
 
 # Preparation Guide
 
-I've been an early Machine Learning Engineer at [Verloop.io](https://verloop.io) for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
+I've been an early Machine Learning Engineer at [Verloop.io](https://verloop.io) for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role. 
 
-This is the guide which I sometimes send to our candidates after they submit the Programming Challenge. 
+This is the guide which I sometimes send to our candidates after they submit the Programming Challenge. If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely. 
 
-If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely. 
+I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better. I'd hoped that it'd absolve smart people of the assumption that Churn, Text Generation and Image Segmentation can be all solve with the same idea-kit, but no luck. 
 
 I hope this is most useful to candidate interviewing for ML roles in companies similar to us in terms of size, scale and challenges. This is also useful to:
 
 * Early career folks - typically less than 2 years of NLP experience
 * Folks coming from Computer Vision/Tabular Data/Classical ML background
 
-# What’s a Machine Learning Engineer?
+# The Role 
 
 Machine Learning Engineers at Verloop develop technologies that influence how users interact, engage and feel about chat and customer service. As a/an MLE, you will specialize in supervised/unsupervised learning and apply techniques to various problems, mostly dealing with high volume natural language processing applications.
 
@@ -49,8 +49,34 @@ Verloop MLE often contribute to adjacent/overlapping challenges such as DevOps f
 *If this is something which interests you, and you are interested in working with us, please directly book an intro call with me here: https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech*
 
 ---
+# Programming Tips
 
-# Recommended Study
+Write your code (unless otherwise stated) as if you are deploying this code to production. So anything which you'd want to pay attention to for your production code should ideally be there. 
+
+That said, here are some things which we pay attention to in your code sample: 
+
+## API & Object Oriented Design
+- Almost always useful to separate views from models
+- If you are implementing REST, do REST properly
+- Keeping common sense names for endpoints make everyones life easier
+
+See [12 Factor App](https://12factor.net) for the gold standard on App Dev practices, here we select only a few and explain what we pay attention to
+
+## Code Readability, Style & Design
+- Use tools like `isort` in Python to neatly organize your imports. Avoid using `fastai` style imports of `from X import *`
+- Docstrings for functions, inline comments where applicable to explain the "why" or "how" - but not what
+- We like the style to be consistent. E.g. in case of Python, following PEP8 or Google Styleguide will improve your code readability by a lot 
+- In Python, type hints will make your and our life easier when we have to debug something
+
+## Developer Hygiene
+- Use a `requirements.txt`, conda `environment.yml` or Dockerfile to declare your dependencies
+- Write tests!
+- Use logging. Generously with levels. But not so much that it slows your production performance. 
+- README with comments, notes, assumptions and what the code is doing
+
+# Machine Learning Tips
+
+In contrast to interview processes which go wide, covering everything from Probability, Statistics, Linear Algebra to Deep Learning and everything in between - we go deep on primarily one aspect: Applied Natural Language Processing. We operate close to Research, occassionally doing research even. 
 
 These are supposed to be indicative/descriptive of the technical skill we desire. These are not prescriptive i.e. you do not have to do the course to clear our interviews. 
 
@@ -70,6 +96,7 @@ We just have seen everyone with equivalent skill as these courses do well in our
     * For a SDE 2 role, having Deep Learning skills equivalent to this course is necessary but not sufficient
 
 * (Hard Mode) Yandex Data School’s [NLP Course](https://github.com/yandexdataschool/nlp_course)
+
 
 # General Interview Tips
 

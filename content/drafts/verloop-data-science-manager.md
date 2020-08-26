@@ -26,28 +26,6 @@ I hope this answers the following question:
 *_If this is something which interests you, are you are interested in working with us, please directly book a calendly slot with me here: _*.
 
 ---
-
-<!-- # Simplifying Decisions
-
-I am a low key fan of [Auren Hoffman](https://twitter.com/@auren)'s advice that great things come from focus and not from building optionality. In the design and selection of tasks which our team has picked, this has been my guiding idea. 
-
-## Building an Analytics Function
-
-Almost every Data Science team can be considered to be built to serve two "purposes": Analytics and Product
-
-Analytics teams contribute in two ways: 
-1. Inform decision makers
-2. Measure and monitor internal metrics
-
-At Verloop, the Analytics function is purely owned by Product Management. We assist but don't own any outcomes.
-
-We build a reasonable number of ETL and Data Exploration tools for our own use (e.g. a Metabase installation) - which we make available to every Verloop employee, but we don't own the outcomes.
-
-This also has a direct bearing on our team size, scope and skill set: We don't need to hire anyone to handle your common churn, forecasting or similar insights problems. Everyone is a competent, contributing NLP Engineer.
-
-## Building a state of the art Model Deployment Toolchain
- -->
-
 # One Role to Rule Them All
 
 For almost 1 year, we have hired for exactly ONE role: Machine Learning Engineer. 
@@ -146,9 +124,15 @@ There are so many reasons that this org design is a bad design that it'd take us
 
 # Mindset
 
-## Unforced Errors & Premortems
+## Unforced Errors
 
 Machine Learning is a game where [87% models never go to production](https://venturebeat.com/2019/07/19/why-do-87-of-data-science-projects-never-make-it-into-production/) - almost every model we have picked, has gone to production.
+
+## Premortems
+
+[Pre-mortems](https://hunterwalk.com/2012/04/23/the-premortem-preventing-failure-before-you-fail/) is a habit/tool which is still somewhat better known in Product Management than Data Science. In fact, it's better understood in Military Strategy than Data Science. 
+
+He who knows his enemy ... - Sun Tzu
 
 I've worked in B2B SaaS companies for almost 4 years out of my 5 years in the game. Hence, I've some strong opinions on what doesn't work. I don't have strong opinions on what works though.
 
@@ -164,19 +148,45 @@ I somehow think that an analytical & numerical leadership can be worked with, in
 
 Communication and convincing non-experts outside your domain is always hard, painstaking and tedious. I should clarify to say that I don't think this is an easy challenge and, hopefully, our peers in Design will hopefully agree. I think that it's worth the effort.
 
+It'd be extremely stupid to assume that any of this would have been possible without the high degree of support and autonomy from the CEO, Gaurav himself. 
 
+As much as I'd like to say/think that I earned that unfailing trust, Lord knows that I have made some messes which he had to clean up.
 
 ## Managing Down
 
+## Peer Management:w
 
 
 # Random Notes
+
+
+
+<!-- # Simplifying Decisions
+
+I am a low key fan of [Auren Hoffman](https://twitter.com/@auren)'s advice that great things come from focus and not from building optionality. In the design and selection of tasks which our team has picked, this has been my guiding idea. 
+
+## Building an Analytics Function
+
+Almost every Data Science team can be considered to be built to serve two "purposes": Analytics and Product
+
+Analytics teams contribute in two ways: 
+1. Inform decision makers
+2. Measure and monitor internal metrics
+
+At Verloop, the Analytics function is purely owned by Product Management. We assist but don't own any outcomes.
+
+We build a reasonable number of ETL and Data Exploration tools for our own use (e.g. a Metabase installation) - which we make available to every Verloop employee, but we don't own the outcomes.
+
+This also has a direct bearing on our team size, scope and skill set: We don't need to hire anyone to handle your common churn, forecasting or similar insights problems. Everyone is a competent, contributing NLP Engineer.
+
+## Building a state of the art Model Deployment Toolchain
+ -->
+
 
 When I was working on this problem, I came across very few people who had done this in my context: someone who is young, and hiring for a cash-starved company which barely had a functioning web page. My problems are distinct from not just Google, but also Swiggy, GoJek and Freshworks. I looked for more actionable advice then, but even Harvard Business Review had advice which was [pretty generic shit](https://hbr.org/2018/10/managing-a-data-science-team)
 
 [Models for Integrating Data Science Teams](https://medium.com/@djpardis/models-for-integrating-data-science-teams-within-organizations-7c5afa032ebd) by DJ Pardis was exceptionally helpful in designing the team more consciously. More important, it gave me a vocabulary, a structure on which to hang my observations and notes.
 
-It'd be extremely stupid to assume that any of this would have been possible without the high degree of support and autonomy from the CEO, Gaurav himself. As much as I'd like to say/think that I earned that unfailing trust, Lord knows that I have made some messes which he had to clean up.
 
 In the 18 months since, our team has grown from 1 engineer (me) to 6 engineers. When I joined, ML was a blocker for the wider org with both latency and performance challenges, which were quickly compounded because of legacy code. We were behind the curve where Machine Learning was seen as a cost center. 
 

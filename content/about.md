@@ -12,8 +12,6 @@ Even wrote a [book](#book) about NLP. I [talk a lot](#talks) about it too.
 
 I write blogs about career, technology and business: [Newsletter](https://niranting.substack.com)
 
-Ambivert, not smart, and curious about weird ideas.
-
 Surat, Gujarat native. I now live in Bengaluru. 
 
 I'm always happy to help those who ask crisp and descriptive questions. Write to me at hello [at] nirantk.com anytime
