@@ -20,9 +20,11 @@ I hope this answers the following question:
     * This is typically founders e.g. CEO/CTO looking to build out a Machine Learning function 
 
 This is divided into the following sections:
-1. Team Structure
-2. Hiring
-3. 
+
+1. [Org Design](#organisation-design)
+2. [Hiring](#hiring)
+3. [Stakeholders](#stakeholders)
+4. [Beliefs](#beliefs)
 
 ---
 
@@ -31,7 +33,7 @@ This is divided into the following sections:
 *_If this is something which interests you, are you are interested in working with us, please directly book a calendly slot with me here: https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech_*.
 
 ---
-# Team Structure
+# Organisation Design 
 
 > Organization Design is determined by these 3 broad categories:
 >
@@ -43,7 +45,12 @@ This is divided into the following sections:
 
 > -- Josh Tobin at [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/course-content/ml-teams/team-structure)
 
-The most well known ways in which companies organise Machine Learning Teams are these:
+From what I observed, most ML teams are harder to build+maintain than your engineering, this is because of few differentiating factors:
+
+* Higher Skill Transfer from one role to another, which makes talent liquid and expensive
+* Lack of ownership/support from Decision Makers
+
+These were the two key pitfalls which I wanted to solve for when designing the ML team and how it sits in the larger org. The most well known ways in which companies organise Machine Learning Teams are these:
 
 ## 1. Research & Development Labs
 
@@ -148,13 +155,14 @@ The programming challenge is a take home exercise which is focussed on low level
 
 For the ML Challenge, we share a dataset for a take home challenge and then discuss the same with the candidate. This round has no right answer. It is deliberately open ended. 
 
-It gives us a lot of signals on a wide variety of things we care about, for instance: 
+It gives us a lot of signals on a wide variety of things we care about, for instance:
+
 - how the candidate formulates the problem,
 - measures the model performance,
 - thinks about model selection and important of loss functions,
 - prior/acquired experience with real world datasets,
 - literature review/comfort with close to research work,
-- ability to write clean, readable code
+- ability to write clean, readable code,
 - whether they include failed experiments, indicates their confidence with sharing honest results
 
 To me, what has suprised most is the number of otherwise skilled people who use "this is what I saw on Medium" as a valid explanation for selecting a particular approach. This lack of agency (autonomy?) is a red flag.
@@ -172,11 +180,13 @@ This onboarding calendar is custom designed to each candidate, depending on thei
 
 ### 2. After Joining Verloop
 
-TK flesh this out
+The onboarding process for each engineer is customizer to their weaknesses. For instance, an engineer coming from a stronger systems background will be first given a project which is mostly data cleaning and benchmarking ML models. So that they can get a deeper, more intimate understanding of how experiment design and evaluation works. 
 
-Every engineer after joining Verloop, spends atleast 1 project doing nothing but drudgery work like data cleaning, or building wonky ETL pipelines. This is more for them to get a feel of our deployment tooling, a lay of our tech ecosystem and settle in before I throw them at the deep end of the pool.
+Similarly, freshers out of college, who typically come from weaker engineering backgrounds (but stronger DL skills) - will spend the first few months paying off tech debt, learning to read legacy code or building new CRUD services. 
 
-# Stakeholder Stuff
+This is obviously in addition to the one heuristic which I've tried to follow: Ensure that every engineer gets one release into production within 4 weeks of joining Verloop.
+
+# Stakeholders
 
 ## Managing Up
 
@@ -192,11 +202,34 @@ It'd be extremely stupid to assume that any of this would have been possible wit
 
 As much as I'd like to say/think that I earned that unfailing trust, Lord knows that I have made some messes which he had to clean up.
 
-## Managing Down
+## Managing People 
 
 This has been more tedious and detailed oriented than I'd expected. Early on, I'd decided that I'd not repeated any of the mistakes that my previous managers had made. Unfortunately, that bar was quite low. 
 
 After >1 year, I've realized the way which works for me is to listen to what people want and then give them that. Hiring smart people and then getting out of their way seems to work really well in our specific team. 
+
+I should point out books that have shaped how I think about Engineering/ML managment as well: 
+
+- The Manager's Path by Camille Fournier
+- Effective Engineer by Edmond Lau
+
+On Managing Myself:
+
+- Managing Oneself by Peter Drucker
+- Standout 2.0 by Marcus Buckingham
+
+Books which are highly recommended, but didn't help me enough:
+
+- The Elegant Puzzle by William Larson
+- Randical Candor by Kim Scott
+
+Books which will probably have high impact, but in the future:
+
+- HBR's 10 Must Reads: On Communication
+- Effective Executive, by Peter Drucker
+- Nonviolent Communication, by Rosenberg
+
+Any book recommendation from me is incomplete with a mention to The Hard Things About Hard Things by Ben Horowitz
 
 ## Peer Management
 
@@ -251,20 +284,23 @@ We build a reasonable number of ETL and Data Exploration tools for our own use (
 
 This also has a direct bearing on our team size, scope and skill set: We don't need to hire anyone to handle your common churn, forecasting or similar insights problems. Everyone is a competent, contributing NLP Engineer.
 
+## Make Bold Bets
+
+TK Flesh this out
+
 # In Hindsight
 
 In the last 18 months, our team has grown from 1 engineer (me) to 6 engineers. When I joined, ML was a blocker for the wider org with both latency and performance challenges, which were quickly compounded because of legacy code. We were behind the curve where Machine Learning was seen as a cost center. 
 
 Today, almost 18 months later, we're almost definitely ahead of the curve in terms of shipping. In the best case scenario, we can also become a profit center in as early as 6-12 months.
 
-A large part of the impact comes from our excellent customer support team, product and engineering. Machine learning is an amplifier of what they already do well.
+A large part of the impact comes from our excellent customer support team, product and engineering. Machine learning is a mere amplifier of what they already do well.
 
-Machine learning performance is also, hopefully a way for us to differentiate against our less-good `.ai` counterparts.
+This has been one of the most fulfilling and hard things I have done. If you are considering a career in Data Science, I hope this helps you see beauty and effort beyond our love for data and ever increasing technical intricacies.
+
+Natkhat,
+
+Nirant
 
 ---
-
-When I was working on this problem, I came across very few people who had done this in my context: someone who is young, and hiring for a cash-starved company which barely had a functioning web page. My problems are distinct from not just Google, but also Swiggy, GoJek and Freshworks. I looked for more actionable advice then, but even Harvard Business Review had advice which was [pretty generic shit](https://hbr.org/2018/10/managing-a-data-science-team)
-
-[Models for Integrating Data Science Teams](https://medium.com/@djpardis/models-for-integrating-data-science-teams-within-organizations-7c5afa032ebd) by DJ Pardis was exceptionally helpful in designing the team more consciously. More important, it gave me a vocabulary, a structure on which to hang my observations and notes.
-
 [ATL] Advanced Technologies Lab (CTO's Office), Samsung Research Institute, Bengaluru.
