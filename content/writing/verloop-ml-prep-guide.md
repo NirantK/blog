@@ -88,15 +88,12 @@ We just have seen everyone with equivalent skill as these courses do well in our
 
 ### Natural Language Processing Deep Dive
 
-* [NLP Basics](https://github.com/NirantK/nlp-python-deep-learning/) - Open Source Code Notebooks on Github or [NLP by spaCy](https://course.spacy.io)
-
 * [NLP: Code First Introduction](https://www.fast.ai/2019/07/08/fastai-nlp/) by FastAI’s Dr. Rachel Thomas
 
 * NLP with Deep Learning: [cs224n by Stanford](https://web.stanford.edu/class/cs224n/)
     * For a SDE 2 role, having Deep Learning skills equivalent to this course is necessary but not sufficient
 
 * (Hard Mode) Yandex Data School’s [NLP Course](https://github.com/yandexdataschool/nlp_course)
-
 
 # General Interview Tips
 
