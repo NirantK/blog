@@ -7,7 +7,7 @@ toc = true
 show_reading_time = true
 +++
 
-*Revised: September 2020. Original 2017 Edition lives [here](https://medium.com/@NirantK/engineers-notes-on-picking-teams-worth-working-with-63f6c8c1c2b1)*
+# Why we need to do a reference check on startup teams we work with? 
 
 Great Startups always ask someone who is joining for a reference check. 
 They speak to your previous managers and colleagues. There is no reason why candidates should not do the same. Many startup employees have more opportunity costs than the founders themselves.
@@ -15,11 +15,9 @@ They speak to your previous managers and colleagues. There is no reason why cand
 I'm surprised by the lack of due diligence which candidates do when interviewing with us. I assume that at least a part of this is that they don't know that they can do this. And second: how to check which startups are worth working with?
 
 Well, first off: 
-I, Nirant, with the power vested in me by decent human beings who care about their lives, hereby grant you the license to do reference checks at places where you will work. 
+> I, Nirant, with the power vested in me by decent human beings who care about their lives, hereby grant you the license to do reference checks at places where you will work. 
 
-That out of our way, I'll invest the rest of this post how to evaluate startup teams. I write this with an engineer's context, **with early career folk in mind**. The mindset should transfer to other functions, but the specific examples will not. 
-
-To keep it interesting, I'm going to do this with less than 140 lines. 
+That out of our way, I'll invest the rest of this post *how* to evaluate startup teams. I write this with an engineer's context, **with early career folk in mind**. The mindset should transfer to other functions, but the specific examples will not. 
 
 # How do you pick a team you want to work with?
 
@@ -40,24 +38,26 @@ When you are interviewing with a team, ask your interviewer
 ## On Mentoring
 Have they mentored someone recently? Are they mentoring someone for the last few months? 
 
-    * What are the key accomplishments of their mentees?
-    * What incentives (direct or indirect) do they have for mentoring others?
-    * Is the mentee growing enough to inspire/challenge the mentor?
+* What are the key accomplishments of their mentees?
+* What incentives (direct or indirect) do they have for mentoring others?
+* Is the mentee growing enough to inspire/challenge the mentor?
 
 ## Org Scaling
 Do they scale by hiring more people or up-skilling employees? What is the balance between these extremes?
     
-    * Do they promote internally? If not, ask/learn why?
-    * Would they back you if you want to learn something adjacaent to your skill?
-    * (Optional) How many engineers have quit in the last 6 months as a percentage of team size?
+* Do they promote internally? If not, ask/learn why?
+* Would they back you if you want to learn something adjacaent to your skill?
+* What is the state of tooling which acts as safeguards e.g. central platform, data teams, and accelerators in the ecosystem e.g. standardized API configs and deployment across all devs?
+
+(Optional) How many engineers have quit in the last 6 months as a percentage of team size?
 
 ## On Decision Making
 
 How do they design systems? E.g. who makes the final decision? You might not want to work for hero driven or extremely consensus driven engineering teams.
     
-    * What does their release cycle look like? 
-    * How do they handle technical debt?
-    * What are the safeguards (e.g. central platform, data teams) and accelerators in the ecosystem (standardized API configs and deployment across all devs)?
+* What does their release cycle look like? 
+* How do they handle technical debt?
+* What are the safeguards (e.g. central platform, data teams) and accelerators in the ecosystem (standardized API configs and deployment across all devs)?
 
 Asking questions along these lines will give you a pretty fair sense of how they think about investing and growing people, as well as how they make decisions. Those are probably the Top 3 on what determines what your experience will be like with that team. 
 
@@ -134,5 +134,8 @@ Till we meet again,
 
 Natkhat Nirant
 
-PS: Used 130 lines. 10 lines is my Profit.
+*Revised: September 2020. Original 2017 Edition lives [here](https://medium.com/@NirantK/engineers-notes-on-picking-teams-worth-working-with-63f6c8c1c2b1)*
+
+*Get this directly in your inbox by leaving your email id here:* 
+
 <iframe src="https://niranting.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
