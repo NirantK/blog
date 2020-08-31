@@ -145,7 +145,7 @@ That said, if you come to the interview without enough homework on your own subm
 
 ---
 
-*I'm hiring for multiple MLE SDE 2 Positions*
+*I'm hiring for a MLE SDE 2 Position*
 
 *If this is something which interests you, and you are interested in working with us, please directly book an intro call with me here: https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech*
 
