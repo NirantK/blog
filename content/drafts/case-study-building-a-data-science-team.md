@@ -4,7 +4,7 @@ description = ""
 date = 2020-08-30T00:09:00+05:30
 tags = ["career", "verloop", "machine learning", "tech"]
 toc = true
-# draft = true
+draft = true
 show_reading_time = true
 +++
 
@@ -23,8 +23,9 @@ This is divided into the following sections:
 
 1. [Org Design](#organisation-design)
 2. [Hiring](#hiring)
-3. [Stakeholders](#stakeholders)
-4. [Beliefs](#beliefs)
+3. [Working with the Boss & Friends](#stakeholders)
+
+Bonus: [Beliefs](#beliefs)
 
 ---
 
@@ -149,7 +150,7 @@ It frankly makes my job a lot easier if developers do amazing work without me pu
 
 ## Process
 
-Our hiring process consists of two primary rounds: a programming challenge and ML challenge. 
+Our hiring process consists of two primary rounds: a programming challenge and ML challenge. You can actually take a deeper look here: [Verloop ML/NLP Interview Prep Guide](./verloop-ml-prep-guide).
 
 The programming challenge is a take home exercise which is focussed on low level design and straightforward API design. We typically give 2-3 days to the candidate for this. 
 
@@ -208,7 +209,7 @@ This has been more tedious and detailed oriented than I'd expected. Early on, I'
 
 After >1 year, I've realized the way which works for me is to listen to what people want and then give them that. Hiring smart people and then getting out of their way seems to work really well in our specific team. 
 
-I should point out books that have shaped how I think about Engineering/ML managment as well: 
+There is so much good written about People Management and Engineering Management in general, that I'd be stupid to add to that clutter. Instead, I should point out books that have shaped how I think about Engineering/ML managment as well: 
 
 - The Manager's Path by Camille Fournier
 - Effective Engineer by Edmond Lau
@@ -229,7 +230,20 @@ Books which will probably have high impact, but in the future:
 - Effective Executive, by Peter Drucker
 - Nonviolent Communication, by Rosenberg
 
-Any book recommendation from me is incomplete with a mention to The Hard Things About Hard Things by Ben Horowitz
+### Data Science Management
+
+What we did: 
+
+1. Encouraged every team to manage the project on their won by few key metrics, 
+    - Seprated out goal and minimum metrics
+2. Measuring the metrics at some cadence, even if this was erratic in the beginning
+3. Each team drives their entire process from research to production to deployment
+    - This encourages teams to think about engineering challenges pretty early and gives them reasonably high autonomy
+
+What we should have also done: 
+
+1. Encourage every team member to spend time data-ing i.e. exploring datasets, building a mental model around it, tagging it on their own 
+2.  Stronger emphasis on software engineering practices once they joined the team e.g. doing TDD, code hygiene
 
 ## Peer Management
 
@@ -252,13 +266,15 @@ This is atleast partially because I didn't want the devs in my team to suffer.
 
 Machine Learning is a game where [87% models never go to production](https://venturebeat.com/2019/07/19/why-do-87-of-data-science-projects-never-make-it-into-production/) - almost every model we have picked, has gone to production.
 
-I've worked in B2B SaaS companies for almost 4 years. Hence, I've some opinions on what doesn't work. I don't have strong opinions on what works though.
+I've worked in B2B SaaS companies, doing Machine Learning research, engineering and deployment for almost 4 years. Hence, I've some opinions on what doesn't work. I don't have strong opinions on what works though.
 
-I encourage my teammates to come up with new ideas and propose everything from the annotation process to the alerting and monitoring configuration. The only place where I really intervene is if the rigour is absent, or they're solving for an imaginary problem.
+I encourage my teammates to come up with new ideas and propose everything from the annotation process to the alerting and monitoring configuration. The only place where I really intervene is if the rigour is absent, or they're solving for a problem without complete context.
 
 So far, this mindset of simply trying to avoid mistakes, instead of trying to be clever has worked well. I suspect as long as ML deployment is a failure-prone business, this mindset will serve me well. If something like GPT3/GPT4 lowers the risk considerably well, I will have to adopt a different mindset altogether.
 
-This has not always worked. We've made some stupid (in hindsight) bets which didn't work for a multitude of reasons, including our own overconfidence in our technical skill and market reasons. 
+This has not always worked. We've made some stupid (in hindsight) bets which didn't work for a multitude of reasons, including our own overconfidence in our technical skill and market reasons.
+
+For those who are into the risk vs uncertainty nuance, I should add that I think because we deal with narrow Machine Learning problems - we mostly deal with technology risk and not so much uncertainty. It can be quantified, estimated and analyzed - it's just that I don't have the training to do so formally. 
 
 ## Premortems
 
@@ -266,7 +282,9 @@ This has not always worked. We've made some stupid (in hindsight) bets which did
 
 He who knows his enemy ... - Sun Tzu
 
-I typically list down the top 3 causes which will kill a project - and then actively monitor them till the project is so stable that I can pay attention to something else. 
+I typically list down the top 3 causes which will kill a project - and then actively monitor them till the project is so stable that I can pay attention to something else. Despite my best attempts, I have failed to inculcate this mindset in devs working with me. 
+
+It seems to be that discipline and optimism are fairly orthogonal mindsets in software engineering culture at-large.  To them, I remind that Microsoft Teams, TikTok, IRCTC and Instagram have shipped better than some of our B2B "Scaling" Engineering teams. In a world lost to chaos, I think the disciplined optimism ethos is basically a competitive advantage in my line of work.
 
 ## Do Less 
 
