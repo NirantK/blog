@@ -46,16 +46,14 @@ My hack for this has been to pick a project with some well understood technical 
 
 If you can, pick a task which is closer to your technical strengths. E.g. I've done enough text classification in my short career that I can prototype one in 6-8 hours.
 
-The point of quick "loud" wins is to ensure that you get a steady stream of projects to pick from -- forever. It's better for good projects to chase you, instead of vice versa. A loud project, well done, will make you attractive to other project owners.
+The point of quick "loud" wins is to ensure that you get a steady stream of projects to pick from -- forever. 
 
-Not just quick. Quick _loud_ wins. 
+It's better for good projects to chase you, instead of vice versa. A loud project, well done, will make you attractive to other project owners. Not just quick: Quick _loud_ wins. 
 
----
 
 I hope these help when you join a new gig as an engineer. 
 
 All the Best, 
-Till we meet again,
 
 Natkhat Nirant
 
