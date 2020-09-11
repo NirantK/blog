@@ -1,10 +1,9 @@
 +++
-title = "First 90 Days - Software Engineers"
+title = "First 90 Days - Software Engineer Version"
 description = "What you can do to make the most of a fresh start"
 date = 2020-09-12T00:09:00+05:30
 tags = ["career", "tech"]
 toc = true
-draft = true
 show_reading_time = true
 +++
 
