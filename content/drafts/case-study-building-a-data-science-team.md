@@ -8,12 +8,14 @@ draft = true
 show_reading_time = true
 +++
 
-Hello, if we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and Samsung Research, I joined as an early machine learning engineer at [Verloop.io](https://verloop.io) - a B2B startup that makes customer support automation SaaS. We're directly responsible for most Data Science needs within the business.
+Hello! 
 
-While there is plenty of good advice on [making ML work](https://www.shreya-shankar.com/making-ml-work/) and [making a career as a Data Scientist](https://medium.com/@rchang/advice-for-new-and-junior-data-scientists-2ab02396cf5b), I want to do a retrospective on what I've learnt in building a team which is far more competent than I am.
+If we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and a BigCo, I joined as an early machine learning engineer at [Verloop.io](https://verloop.io) - a B2B startup that makes customer support automation SaaS. We're directly responsible for most Natural Language Processing needs within the business.
+
+While there is plenty of good advice on [making ML work](https://www.shreya-shankar.com/making-ml-work/) and [making a career as a Data Scientist](https://medium.com/@rchang/advice-for-new-and-junior-data-scientists-2ab02396cf5b), I wanted to write my experience as a manager/early engineer who built out a ML team at a startup. 
 
 # Who is this for? 
-I hope this answers the following question: 
+People with these questions:
 
 * "What would it be like to be a Data Science Manager?"
 * "How can I build a Machine Learning team from scratch?" 
@@ -34,77 +36,6 @@ Bonus: [Beliefs](#beliefs)
 *_If this is something which interests you, are you are interested in working with us, please directly book a calendly slot with me here: https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech_*.
 
 ---
-# Organisation Design 
-
-> Organization Design is determined by these 3 broad categories:
->
-> 1. Software Engineer vs Research: To what extent is the Machine Learning team responsible for building or integrating with software? How important are Software Engineering skills on the team?
->
-> 2. Data Ownership: How much control does the Machine Learning team have over data collection, warehousing, labeling, and pipelining?
->
-> 3. Model Ownership: Is the Machine Learning team responsible for deploying models into production? Who maintains the deployed models?
-
-> -- Josh Tobin at [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/course-content/ml-teams/team-structure)
-
-From what I observed, most ML teams are harder to build+maintain than your engineering, this is because of few differentiating factors:
-
-* Higher Skill Transfer from one role to another, which makes talent liquid and expensive
-* Lack of ownership/support from Decision Makers
-
-These were the two key pitfalls which I wanted to solve for when designing the ML team and how it sits in the larger org. The most well known ways in which companies organise Machine Learning Teams are these:
-
-## 1. Research & Development Labs
-
-Of these, a R&D Lab is ideal for most well capitalized businesses because it enables them to attract talent, which can in turn work on long term business/tech challenges. Uber AI Labs, Google AI Research, DeepMind, and FAIR are some examples from the top of my head which have executed this well. 
-
-I have personally spent some time working in such an org design. [ATL] 
-
-The limitation with this org design is that R&D teams don't own inputs (data) and outputs (model performance in production).  This makes this org design all but useless for a pre/near Product Market Fit startup.
-
-## 2. Embedded within Business & Product Teams
-
-I asked different people on how they organize Data Science teams/function within their companies in India. I tried to talk to folks who had worked on the 10-30 employee count stage to get a better estimate of challenges which occur there but disappear later in the life cycle of the organization, but didn't really come across too many of them.
-
-By far the most popular org design in Indian startups, a Data Scientist is embedded into an engineering team along with an analyst which is then assigned to a business or product team. From the top of my head, this is how some of the best Data Science teams like AirBnb, Flipkart, and Facebook organize their ML teams. 
-
-I strongly considered this org design, but ultimately opted against this because it would not play to my strengths at all. Specifically, I expected these challenges:
-
-1. Hard to maintain uniform data standards and practices across the org
-2. Management Complexity, in terms of the ever increasing breadth of problems across different features
-
-## 3. Data Science Consultant
-
-This was by far the most popular org design in startups or small business which themselves had a services arm or revenue attached to it. 
-
-The basic flow is that business or product teams bring specific problems to a data science lead, who then scopes out a plan, defines a succsess criteria and hands it off to a Data Scientist within the team. 
-
-There are so many understated but commonly known limitations of this, which ultimately hurt the gross margins of a SaaS business. This was dropped fairly early as a candidate for that specific reason.
-
-## 4. [Near Future] Productized Data Science Team
-
-When I studied more modern teams, especially in B2B SaaS or eCommerce from outside, I _felt_ they made a small but important change in this model: Instead of a matrix where the Data Scientist was ultimately responsible to their own unit and nothing else, they had a central Data Science function to which all Data Scientists reported. 
-
-Some teams created a new, "Chief Data Scientist" or "VP, Machine Learning" designations to reflect this increased autonomy and status within the org. Notice, that this is quite similar to how some Design teams are organized.
-
-While I had not worked under this org design, I had interned at a place which was small (10-50 employees) and I could understand the limitations of this org design when I was told the same. 
-
-The most common warning was the amount of context which any lead/manager Data Science had to keep beyond a certain project count within the company. I expect that **Verloop ML Team will evolve into this** over the next 12-24 months. I'm estimating this on the basis of the problem complexity and the head count needed  engineering and data science teams both  
-
-## 5. [Today] Machine Learning Pillar
-
-This is the **org design at Verloop ML today**.
-
-From the top of my head, I don't know of any large businesses which have executed this well except for TikTok and Baidu. The defining characteristic of this org design is that the ML Lead reports directly to the CEO.
-
-The CEO directly brings the business context and drives quick wins. The ML Lead needs to negotiate continuously on organisational goals, constantly query for added context, and makes long term bets.
-
-Part of the ML Product Manager role also got absorbed into what I've been doing as a Machine Learning Manager because we did not have a full time Product Manager in the company for more than 6 months:
-- Does: Work with ML team, data owners to prioritize, execute and spec out projects
-- Tools: Jupyter for PoC, JIRA, Slack, Google Docs for Comms
-
-The only real advantage of this org design is that it makes attracting talent easier by giving them quite high autonomy. The team also owns model performance and deployment. The deployment ownership is made possible by a ML Sytem Design decision as well: The strong adherence to multi-tenant models instead of client specific models.
-
-There are so many reasons that this org design is a bad design that it'd take us an entire night to spell it out. Since the team can influence everything (to varying degrees) from engineering to front end changes - the blast radius of what this team can screw up or drastically improve is quite large. 
 
 # Hiring
 
@@ -199,15 +130,33 @@ I somehow think that an analytical & numerical leadership can be worked with, in
 
 Communication and convincing non-experts outside your domain is always hard, painstaking and tedious. I should clarify to say that I don't think this is an easy challenge and, hopefully, our peers in Design will hopefully agree. I think that it's worth the effort.
 
+Here is what I would want to do in the future to make this better:
+
+1. Highlight opportunities e.g. this can be our moat/IP or unlock new value with the caveat: "if it works"
+2. State assumptions e.g. cost, development time -- this gives you a feedback loop on your assumptions as well 
+3. Call out checkpoints in "state of work" and not timeline. E.g. better to say, once we have done 5 experiments instead of 5 weeks, since you might end up realising that cleaning the data itself is going to take 3x as long
+
 It'd be extremely stupid to assume that any of this would have been possible without the high degree of support and autonomy from the CEO, Gaurav himself. 
 
 As much as I'd like to say/think that I earned that unfailing trust, Lord knows that I have made some messes which he had to clean up.
 
 ## Managing People 
 
-This has been more tedious and detailed oriented than I'd expected. Early on, I'd decided that I'd not repeated any of the mistakes that my previous managers had made. Unfortunately, that bar was quite low. 
+Of all things, I have received more support here than I deserved here - and I'm truly grateful for that. I think I have made quite a few people/psychology mistakes here. For instance, assuming that people want to be pushed and given maximum autonomy possible, instead of being led and they build mastery on their craft instead. 
 
-After >1 year, I've realized the way which works for me is to listen to what people want and then give them that. Hiring smart people and then getting out of their way seems to work really well in our specific team. 
+I also found myself being extremely angry at quite a lot. Although I'd read Andy Grove's notion of Task Relevant Maturity, I don't think I did anywhere a decent job of implementing it. 
+
+Managing my own mental state has been more work than I'd expected. My blast radius is much larger -- and deeper than I'd expected. I am sure there are plenty of people with far more nuance, patience and empathy who'd have done a better job at this.
+
+Early on, I'd decided that I'd not repeated any of the mistakes that my previous managers had made. I ended up making a different version of the same f**king mistakes anyway. 
+
+After >1 year, the only thing which works for me is to listen to what people want and then do that. Hiring smart people and then getting out of their way seems to work really well in our specific team. 
+
+The limitation of this mindset is that it relies on people being able to articulate their needs/demands.
+
+Unfortunately, that isn't an universal gift. Some people would rather explode and take extreme actions instead of giving the other person a chance. If you have a good alternative to this - let me know? 
+
+### Reading Reccos
 
 There is so much good written about People Management and Engineering Management in general, that I'd be stupid to add to that clutter. Instead, I should point out books that have shaped how I think about Engineering/ML managment as well: 
 
@@ -302,22 +251,23 @@ We build a reasonable number of ETL and Data Exploration tools for our own use (
 
 This also has a direct bearing on our team size, scope and skill set: We don't need to hire anyone to handle your common churn, forecasting or similar insights problems. Everyone is a competent, contributing NLP Engineer.
 
-## Make Bold Bets
-
-TK Flesh this out
-
 # In Hindsight
 
-In the last 18 months, our team has grown from 1 engineer (me) to 6 engineers. When I joined, ML was a blocker for the wider org with both latency and performance challenges, which were quickly compounded because of legacy code. We were behind the curve where Machine Learning was seen as a cost center. 
+In the last 18 months, our team has grown from 1 engineer (me) to 6 engineers. When I joined, ML was a blocker for the wider org with both latency and performance challenges, which quickly compounded because of legacy code and engineering exits. 
 
-Today, almost 18 months later, we're almost definitely ahead of the curve in terms of shipping. In the best case scenario, we can also become a profit center in as early as 6-12 months.
+We were behind the curve where Machine Learning was seen as a cost center. 
+
+Today, almost 18 months later, we're almost definitely ahead of the curve in terms of shipping. In the best case scenario, we can also become a profit center in as early as 6-12 months. 
+
+Similarly, there is still a lot of room when it comes to our ability to explore quickly and prototyping production-grade software faster. We can shrink this from present 6-8 weeks to 1-3 weeks in the best case scenarios.
 
 A large part of the impact comes from our excellent customer support team, product and engineering. Machine learning is a mere amplifier of what they already do well.
 
-This has been one of the most fulfilling and hard things I have done. If you are considering a career in Data Science, I hope this helps you see beauty and effort beyond our love for data and ever increasing technical intricacies.
+This has been one of the most fulfilling and hard things I have done. 
 
-Natkhat,
+If you are considering a career in Data Science, I hope this helps you see beauty and effort beyond our love for data and ever increasing technical intricacies.
 
+Till we meet again,
 Nirant
 
 ---
