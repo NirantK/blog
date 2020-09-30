@@ -8,9 +8,9 @@ draft = true
 show_reading_time = true
 +++
 
-While there is plenty of good advice on [making ML work](https://www.shreya-shankar.com/making-ml-work/) and [making a career as a Data Scientist](https://medium.com/@rchang/advice-for-new-and-junior-data-scientists-2ab02396cf5b) -  I think very little discussion happens on the organisation design for Data Science itself. 
-
-# Org Design 
+# Data Science Org Design
+ 
+While there is plenty of good advice on [making ML work](https://www.shreya-shankar.com/making-ml-work/) and [making a career as a Data Scientist](https://medium.com/@rchang/advice-for-new-and-junior-data-scientists-2ab02396cf5b) -  I think very little discussion happens on the organization design for Data Science itself.
 
 > Organization Design is determined by these 3 broad categories:
 >
@@ -19,13 +19,13 @@ While there is plenty of good advice on [making ML work](https://www.shreya-shan
 > 2. Data Ownership: How much control does the Machine Learning team have over data collection, warehousing, labeling, and pipelining?
 >
 > 3. Model Ownership: Is the Machine Learning team responsible for deploying models into production? Who maintains the deployed models?
+>
+> --- Josh Tobin at [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/course-content/ml-teams/team-structure)
 
-> -- Josh Tobin at [Full Stack Deep Learning](https://course.fullstackdeeplearning.com/course-content/ml-teams/team-structure)
-
-From what I observed, most ML teams are harder to build and maintain than your app engineering functions, this is because of two differentiating factors:
+It's harder for ML/DS teams to succeed than your typical product and platform engineering functions. This is because:
 
 * High Skill Transfer from one role to another, which makes talent _both_: liquid and expensive
-* Lack of understanding whether Machine Learning is an innovation function or execution function
+* Management is unclear on what does "success" look like for ML as a function?
 
 These were the two key pitfalls which I wanted to solve for when designing the ML team and how it sits in the larger org. The most well known ways in which companies organise Machine Learning Teams are these:
 
