@@ -45,6 +45,10 @@ Written with code examples and programmer-first mindset. Try it out yourself on 
 
 My 5 minutes of Internet fame
 
+### Top 1% Podium finish at Microsoft AI Challenge 2018
+
+Search and Informational Retrieval Ranking Challenge hosted by Bing AI Team
+
 ### Won the Kaggle Kernel Prize
 
 [![](https://i.imgur.com/Zie5FlB.png)](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/)
