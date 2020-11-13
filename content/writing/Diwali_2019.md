@@ -3,11 +3,11 @@ title = "Happy Diwali 2019"
 date = 2019-11-01T00:09:00+05:30
 tags = ["niranting"]
 description = "And Annual Updates"
-toc = false
+toc = true
 featured_image= "/images/Diwali2019.jpg"
 +++
 
-I wanted to dropby and wish you a very Happy Diwali!
+I wanted to drop by and wish you a very Happy Diwali!
 
 ![](https://ci3.googleusercontent.com/proxy/79aXr-g13GUQwYFqSaSOJVCQxIDjsUBApmLJXwsc9IpFX4GvMP0eHVppw4JIAQMFPAM9Dg8cRfEKN4xiTefSOyKn_aCoRwGlOJw0=s0-d-e1-ft#http://media.giphy.com/media/l0IsI60BLJxcgNdkY/giphy.gif)
 
@@ -20,21 +20,21 @@ Also, checkout the 2018 edition of the annual email in attachment if you're curi
 
 Moving onto the least comfortable piece, talking about myself:
 
-**Health**
+## Health
 This has been a year of regression. For instance: 
 
 - My BMI has slipped from 30 to 33 (higher is worse), gained about 7 kgs
 - Have worked out less than 2000 minutes (was 5000 minutes last year)
 - Have made tremendous unmeasured progress in managing my long term asthma, now I can frequently run up 2 floors without noticing that I did
 
-**Wealth**
+## Wealth
 
 - I was trying to invest in things other than mutual funds. Well, I've lost 25% of whatever I’ve invested in stocks (via smallcase) since then
 - I hired a financial advisor, which was a net loss making deal due to the fees, but helped me form better habits. Financial advisor in that sense are like gym trainers, more than the exercise - their main value addition is in *following up*
 - I’ve reduced my Fixed Deposit and Recurring Deposit investments to 0% of my savings
 - I’m diversifying my folio to a mix of index and bond funds now - this is still work in progress
 
-**Learning and Reading**
+## Learning and Reading
 Last year, I wrote how I was trying to think and dream better. Well, that has been a bust. The intent was to form a mental model, a scaffold of habits and information on which I could add new information and refine the scaffold itself.
 
 This has been slower than I’d have guessed.
@@ -47,7 +47,7 @@ Intentionally, I read less books this year. I did read a lot more modern essays 
  
 I also spent an unhealthy time reading beginner content on seemingly irrelevant topics like Policy making and Human Capital. Here is my favourite cross-topic discovery so far: [Talent vs Luck: The role of randomness in success and failure.](https://arxiv.org/pdf/1802.07068.pdf) 
 
-**Work**
+## Work
 Since last Diwali, I quit Soroco and moved to Verloop.io - a really small, pre-Product Market Fit, loss-making business. I strongly considered a very enticing data science role at an investment bank. I finally leaned away from it, making a financially very expensive gut call.
 
 The role here is challenging in two very important ways: 
@@ -63,19 +63,18 @@ The thing that could unlock 10x value? Technical and Learning-to-Manage Mentorsh
 The other welcome change is in how anxious I am about *work:* I am not! 
 I am almost always excited to go work.
 
-**Work Adjacent**
+## Work Adjacent
 
 - Public Speaking: I was invited to speak at PyCon India 2019 - India’s top conference on the Python programming language
 - Open Source: I’ve continued to maintain [Awesome-NLP](https://github.com/keon/awesome-nlp/) for years now. It now has over 9 thousand stars and 80+ contributors now. It’s officially recommended by [Stanford](https://www.linkedin.com/pulse/awesome-nlp-now-recommended-stanford-nirant-kasliwal/) to their Deep Learning students now. 
 
-**What's Next?**
 
+## What's Next?
 1. Writing and Tact
 
 I suspect more knowledge workers in 20s should invest in learning how to communicate via either public speaking or writing. My chosen medium will probably be writing. I intend to write about a select list of topics: technology and how it has shaped our choices.
 
 Owing partly to how I grew up, my default communication style has been *confrontational.* I'll incorporate a lot more tact, grace and consideration in the years ahead. Be more [Kabira.](https://www.youtube.com/watch?v=g26k6M8x1m8) 
-
 
 2. Chase external validation
 

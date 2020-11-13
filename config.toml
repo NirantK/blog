@@ -4,7 +4,7 @@ languageCode = "en"
 
 title = "Nirant Kasliwal"
 theme = "ananke"
-Paginate = 10
+Paginate = 9
 
 [sitemap]
   changefreq = "monthly"
@@ -19,8 +19,7 @@ Paginate = 10
   linkedin="https://www.linkedin.com/in/nirant"
   twitter = "https://twitter.com/@NirantK"
   github="https://github.com/NirantK"
-  recent_posts_number = 5
-
+  recent_posts_number = 9
 
 pygmentsUseClassic=true
 pygmentsUseClasses=true
