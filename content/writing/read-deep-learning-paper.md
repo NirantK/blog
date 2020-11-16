@@ -19,7 +19,7 @@ Some people read academic papers like they read novels: Open link. Read the text
 Here, I am trying to distill and form a better structure for myself to improve the return on my very limited _energy_.
 
 # Four Types of Reading
-- In his cult classic book, Mortimer J Adler explains his Four Types of Reading, mainly keeping a non-fiction book in mind. I am adapting these to the context of Deep Learning paper for us.
+- In his cult classic book, "How to Read a Book", Mortimer J Adler explains his Four Types of Reading, mainly keeping a non-fiction book in mind. I am adapting these to the context of Deep Learning paper for us.
 
 ## Elementary 
 This is the point where you're when you finish a 101 course in Machine Learning. You know the key terms and vocabulary e.g. convergence, loss functions and optimizers. You can understand what the words in the paper mean and read them, maybe follow the narrative, but not much more. Since you're reading this blog, I assume you are already reading at a level above this.
@@ -40,7 +40,7 @@ This is basically skimming. You look at the headings, read the beginning and end
 
 - **Read the Conclusion.** Authors generally do a good job summarizing their work in the last few pages. This where they sum up what they think is most important about their work. Just jump to this first.
 
-> 💡Pro Tip💡: **Listen to an interview or podcast.** While this has nothing to do with the actual paper, interviews can be a great way to get the gist of a book in 30minutes or so. Authors do so much promotion now that it's relatively easy to find interviews. And of course, they use the best examples from the book in these interviews.
+> 💡Pro Tip💡: **Check out their interview, podcast, oral presentation, or Twitter thread or poster.** While this has nothing to do with the actual paper, these can be a great way to get the gist of a paper in 30 minutes or so. Authors do so much promotion now that it's relatively easy to find interviews. Many selected papers have oral presentations. And of course, they use the best examples from the book in these interviews.
 
 ### Superficial Reading
 This is most useful when you’re reading outside your usual comfort zone. 
@@ -56,10 +56,10 @@ This is where you really dive into a text. You read slowly and closely, you take
 
 **Don't Google Too Early**. If there is a math formula, concept, or word you don’t know, first look at the context to try to discern its meaning. See if the author explains what happens when or why they used it. Warm up and use your brain to get started. If it’s something you simply can’t get past, or the word is clearly too important for you to glance over, then check the citations. If even that isn't enough, then finally Google it. The main point is that you can use the tools around you, but don’t lean on them. Let your brain work a little bit before letting Google work for you.
 
-**Get a sense of the author's background**. Look at what institutions do they mention. Are they from academia? An applied AI lab like Apple or GoogleAI? Or an academic lab, sponsored by industry like DeepMind/FAIR? This might sound like an irrelevant detail to many people. 
-    - So let me share two examples of how it can inform your reading: 
+**Get a sense of the author's background**. Look at what institutions do they mention. Are they from academia? An applied AI lab like Apple or GoogleAI? Or an academic lab, sponsored by industry like DeepMind/FAIR? Two examples of how it can inform your reading:
+
         1. There are some companies/labs where a person has to write a certain number of papers every year in order to get promoted (or even retain their jobs) -- they typically have narrow ideas which solve a specific problem incredibly well, but are mostly not adaptable to another domain or context.
-        2. Teams and labs have distinct flavors. For instance, the UPKLab does some of the most amazing work in Applied NLP, while Neubig lab is making a lot of progress in doing NLP for low-resource languages. Including work around OCR'ing scanned texts. More famously, Sebastian Ruder has worked for quite some time in multilingual and cross-lingual representations of non-English languages
+        2. Teams and labs have distinct flavors and sometimes work on specific themes. This can help you quickly get a sense of whether the paper is part of a longer series and see the papers before and after the one you're reading.  
 
 ### Answer the 4 Key Questions
 - This, Adler says, is actually the key to analytical reading. To be able to answer these questions shows that you have at least some understanding of the paper and what you've read. If you can’t answer them, you probably haven’t quite paid attention well enough. I also find it personally helpful that you should actually write (or type) these answers out. Consider it to be like a book journal. It’ll stay with you and become much more ingrained than if you just answer them in your head. 
@@ -68,7 +68,7 @@ This is where you really dive into a text. You read slowly and closely, you take
 
 **What is being said in detail, and how?** This is where you start to dig a little deeper. Briefly go back and skim through the paper, jogging your memory of the key points, formulae, section headings, graphs and tables with results. With most papers, outlining is pretty straightforward since the section headings do bulk of the job for you. For short papers, this could be as short as 5-10 lines. Pay special attention to what datasets, experiment configurations and ablation results if they're mentioned.
 
-**Is the paper true - in whole or in part?** If you're reading within your own comfort zone, you'll begin to see by now the scenarios/tasks/areas where the paper falls short. For instance, if you're reading up on Long Range Transformers -- based on your knowledge of pre-trained Transformer models like BERT, RoBERTa or T5, you should expect them do better at summarization and Q&A tasks than these. If the paper falls short, you can quickly jot that down as a question to ask, ponder upon or experiment yourself.
+**Is the paper true - in whole or in part?** If you're reading within your own comfort zone, you'll begin to see by now the scenarios/tasks/areas where the paper falls short. For instance, if you're reading up on Long Range Transformers -- based on your knowledge of pre-trained Transformer models like BERT, RoBERTa or T5, you should expect them do better at summarization and Q&A tasks than these. If the paper falls short, you can quickly jot that down as a question to ask, ponder upon or experiment yourself. This is true for both peer-reviewed and pre-print papers - they can often have glaring errors and mistakes which you might notice.  
 
 **So what? What’s the significance?** Most papers are _incremental_ in their contribution to the world. This is not necessarily a bad thing. As long as the paper made you see the field or area in a new light, or even a new nugget of knowledge - it was helpful. We should aim for reading papers which at-least give us something valuable in either perspective, knowledge (e.g. empirical facts) or methods. This is by far the most useful question to ask since it helps contextualize the contributions of the author against your own _personal context, understanding and knowledge_.
         
@@ -101,5 +101,8 @@ The core idea here is that reading is not a passive process. You have to activel
 - So what?
 
 ## Resources
-- Art of Manliness[ https://www.artofmanliness.com/articles/how-to-read-a-book/](https://www.artofmanliness.com/articles/how-to-read-a-book/)
-- Farnam Street[ https://fs.blog/how-to-read-a-book/](https://fs.blog/how-to-read-a-book/)
+- [Art of Manliness](https://www.artofmanliness.com/articles/how-to-read-a-book/)
+- [Farnam Street](https://fs.blog/how-to-read-a-book/)
+
+
+Thanks for Gokula Krishnan and Pratik Bhavasar for reviewing early versions of this. 
